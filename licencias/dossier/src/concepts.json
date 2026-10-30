@@ -2,72 +2,54 @@
   "model": "gpt-image-2.5-sunburst",
   "quality": "high",
   "aspectRatio": "1:1",
-  "style": "Photorealistic commercial product photography, soft daylight, warm neutral background. Reproduce the wired Naolito characters exactly: same shapes, faces, line and colours. Do not invent other characters. No text, no logos, no brand names.",
+  "generated": "30 Oct 2026, Animanager (Naolito Team › Stores › Illustrations › canvas «rewewrwerwerwer», generator «Dossier product concepts»)",
+  "style": "Photorealistic commercial product photography, soft diffuse daylight, warm neutral background. Reproduce the referenced Naolito character exactly: same shapes, faces, line and colours. No other characters. No text, no logos, no brand names.",
   "images": [
     {
-      "file": "img/concepts/store-endcap.png",
-      "references": [
-        "web/tcsol-kindest-surprise-avocado-family.jpg",
-        "web/tcsol-broccoli.jpg",
-        "web/tcsol-family-portrait-sun-cloud-rainbow.jpg"
-      ],
-      "prompt": "A tall retail endcap display in a European gift and design store, fully stocked with plush toys, mugs, notebooks and T-shirts of these characters.",
-      "slot": "retail.img"
+      "file": "img/concepts/plush-avocado-family.jpg",
+      "references": ["web/tcsol-kindest-surprise-avocado-family.jpg"],
+      "prompt": "Three soft plush toys of this avocado family, two parents and a baby, sitting together on a light linen sofa.",
+      "slot": "products.gallery[3]"
     },
     {
-      "file": "img/concepts/gift-shop-table.png",
-      "references": [
-        "web/tcsol-sushi-is-love.jpg",
-        "web/tcsol-trex-asteroid-paper-scissors.jpg",
-        "web/naolito-before-after-coffee-sloth.webp"
-      ],
-      "prompt": "A wooden display table in an independent gift shop, styled with mugs, sticker sheets, tote bags and small plush toys of these characters.",
-      "slot": "partner.img"
+      "file": "img/concepts/apparel-sloth-hoodie.jpg",
+      "references": ["web/naolito-before-after-coffee-sloth.webp"],
+      "prompt": "A cream hoodie and folded kids' pyjamas printed with this sleepy sloth hugging a coffee mug, top-down on a pale wooden surface, no lettering.",
+      "slot": "products.gallery[4]"
     },
     {
-      "file": "img/concepts/plush-avocado-family.png",
-      "references": [
-        "web/tcsol-kindest-surprise-avocado-family.jpg"
-      ],
-      "prompt": "Three soft plush toys of this avocado family, parents and baby pit, sitting together on a light sofa.",
-      "slot": "products.gallery"
+      "file": "img/concepts/stationery-sky-family.jpg",
+      "references": ["web/tcsol-family-portrait-sun-cloud-rainbow.jpg"],
+      "prompt": "A back-to-school set with these sky characters: hardcover notebook, pencil case and sticker sheet on a pastel blue desk.",
+      "slot": "products.gallery[5]"
     },
     {
-      "file": "img/concepts/apparel-sloth-hoodie.png",
-      "references": [
-        "web/naolito-before-after-coffee-sloth.webp"
-      ],
-      "prompt": "A cream hoodie and folded kids' pyjamas printed with this sloth artwork, laid out neatly on a pale surface.",
-      "slot": "products.gallery"
+      "file": "img/concepts/kitchen-sushi-lunch.jpg",
+      "references": ["web/tcsol-sushi-is-love.jpg"],
+      "prompt": "A ceramic mug, a bento lunch box and a water bottle decorated with this salmon and rice couple on a bright kitchen counter.",
+      "slot": "products.gallery[6]"
     },
     {
-      "file": "img/concepts/stationery-sky-family.png",
-      "references": [
-        "web/tcsol-family-portrait-sun-cloud-rainbow.jpg"
-      ],
-      "prompt": "A back-to-school set with these sky characters: hardcover notebook, pencil case and sticker sheet on a pastel desk.",
-      "slot": "products.gallery"
+      "file": "img/concepts/home-cushions-broccoli.jpg",
+      "references": ["web/tcsol-broccoli.jpg"],
+      "prompt": "Two round cushions and a soft throw blanket featuring this broccoli character on a cosy armchair, without the speech bubble.",
+      "slot": "products.gallery[7]"
     },
     {
-      "file": "img/concepts/kitchen-sushi-lunch.png",
-      "references": [
-        "web/tcsol-sushi-is-love.jpg"
-      ],
-      "prompt": "A ceramic mug, a bento lunch box and a water bottle decorated with these sushi characters on a bright kitchen counter.",
-      "slot": "products.gallery"
+      "file": "img/concepts/mug-tote-trex.jpg",
+      "references": ["web/tcsol-trex-asteroid-paper-scissors.jpg"],
+      "prompt": "A white mug and a canvas tote bag printed with this worried T-Rex looking up at the falling asteroid, without the speech bubble.",
+      "slot": "products.gallery[8]",
+      "replaces": "store-endcap (rejected version's retail.img)"
     },
     {
-      "file": "img/concepts/home-cushions-broccoli.png",
-      "references": [
-        "web/tcsol-broccoli.jpg"
-      ],
-      "prompt": "Two round cushions and a soft throw blanket featuring this broccoli character on a cosy armchair.",
-      "slot": "products.gallery"
+      "file": "img/concepts/wall-art-earth.jpg",
+      "references": ["web/tcsol-earth-photo-booth.jpg"],
+      "prompt": "A framed art print and a canvas print of this Earth character on a light living-room wall, without the photo booth.",
+      "slot": "products.gallery[9]",
+      "replaces": "gift-shop-table (rejected version's partner.img)"
     }
   ],
-  "caption": {
-    "en": "Product concept",
-    "es": "Concepto de producto"
-  },
-  "note": "Not generated yet. On generating: point each slot at its file with this caption, keep the 3 real photos (book cover, both Nesquik mugs) in products.gallery, and add the sources note saying these are generated, not existing products."
+  "caption": "Product concept",
+  "note": "The 7 concepts replace the 7 Redbubble / iCanvas mockups of the products page. The 3 real photos (book cover, both Nesquik mugs) stay in products.gallery[0-2] with «(photo)» in their caption."
 }
