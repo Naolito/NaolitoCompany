@@ -21,7 +21,7 @@ npm run deploy                     # publica y conecta D1 y las variables de wra
 
 Después, en Pages › `naolito-management` › Custom domains, añade `management.naolito.com`, y prueba: una cuenta @naolito.com entra, otra no, y `GET /api/agent/queue` responde con el service token.
 
-La base `naolito-management` ya tiene las tablas, las 20 agencias, el informe y las dos plantillas sin aprobar: no hay que volver a importarla. La migración `0001_init.sql` ya consta como aplicada en `d1_migrations`.
+La base `naolito-management` ya tiene las tablas, las 20 agencias, el informe y una versión anterior de las dos plantillas, sin aprobar: no hay que volver a importarla. Las plantillas buenas las guarda `npm run agent save-templates`, también sin aprobar. La migración `0001_init.sql` ya consta como aplicada en `d1_migrations`.
 
 ## Cómo funciona
 
@@ -53,7 +53,7 @@ curl https://management.naolito.com/api/agent/queue \
 | `GET /agencies` | Todas las agencias con su estado, para localizar a quién marcar una respuesta. |
 | `POST /agencies/:id/claim` | Coge una agencia de la cola antes de enviar (`cola` → `preparando`) y devuelve su texto. Responde 409 si otro agente la cogió o su plantilla no está aprobada. **Sin este paso no se puede registrar el envío.** |
 | `POST /agencies/:id/sends` | Registra el resultado. Ver abajo. |
-| `POST /agencies/:id/reply` | Marca una respuesta. Cuerpo: `{ state, note? }`, con `state` entre `respondio`, `reunion`, `firmada` y `descartada`. Solo con agencias ya contactadas. |
+| `POST /agencies/:id/reply` | Marca una respuesta. Cuerpo: `{ state, note? }`, con `state` entre `respondio`, `reunion`, `firmada` y `descartada`. Solo con agencias ya contactadas. Con `state: "atencion"` y `note` obligatoria, pasa a «Necesita a Nacho» una agencia en `enviado` o `respondio`. |
 
 ### Registrar un envío
 
@@ -77,6 +77,28 @@ No se ha podido enviar (`preparando` → `atencion`, le llega al equipo como «N
 ```json
 { "status": "atencion", "why": "El formulario pide un captcha" }
 ```
+
+## El agente: Daniel Martin
+
+`agent/` envía el primer contacto y lee las respuestas desde dmartin@naolito.com, sin navegador ni sesión de Gmail: SMTP y IMAP con `AGENT_EMAIL` y `AGENT_EMAIL_APP_PASSWORD`, y la API con `CF_ACCESS_CLIENT_ID` y `CF_ACCESS_CLIENT_SECRET`. El prompt de la tarea Recurrent está en [AGENTE.md](AGENTE.md).
+
+```bash
+npm run agent save-templates   # guarda seed/templates.json como borrador; no toca lo que alguien ya editó
+npm run agent test-email we-love-licensing   # manda a dmartin@naolito.com, y a nadie más, el texto y el dossier
+npm run agent send             # paso 2: emails de la cola y agencias que no se pueden enviar
+npm run agent forms            # formularios que tocan ahora, con sus campos
+npm run agent claim <id>       # coge una agencia de formulario y devuelve su texto
+npm run agent sent <id> <prueba>
+npm run agent stuck <id> <motivo>
+npm run agent replies          # paso 4: lee la bandeja y marca las respuestas
+npm run agent flag <id> <motivo>
+```
+
+- `agent/forms.json` guarda lo visto en cada formulario el 30/10/2026. Si una agencia tiene `blocked`, pasa directamente a «Necesita a Nacho» con ese motivo.
+- Antes de enviar se comprueba el texto final: sin huecos, menos de 120 palabras y sin condiciones. Si falla, la agencia va a «Necesita a Nacho».
+- Una agencia que se queda en `preparando` nunca se reenvía: la siguiente pasada la manda a «Necesita a Nacho». Una agencia con un envío registrado no puede volver a la cola.
+- Un correo se marca como leído cuando ya está tratado. Si no se sabe de quién es, sigue sin leer y sale en cada informe. Por eso conviene no abrir esa bandeja a mano: un correo leído ya no se procesa.
+- Las respuestas automáticas no cuentan. Un rebote, o una respuesta que pregunta quién escribe o pide hablar, pasa a «Necesita a Nacho». Ante la duda, avisa: la detección busca palabras como «call» o «hablar» y puede dar falsas alarmas.
 
 ## Desarrollo
 

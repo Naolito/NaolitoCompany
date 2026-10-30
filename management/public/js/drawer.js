@@ -1,7 +1,7 @@
 import { $, AFTER_SEND, LABEL, VIA, approved, ag, canQueue, esc, host, lastSend, logOf, pill, template, ui, when } from './state.js';
 import { LANGS, fill } from './template-text.js';
 
-const FORM_FIELDS = [['Nombre', 'Nacho Arjona'], ['Empresa', 'Naolito'], ['Email', 'contact@naolito.com']];
+const FORM_FIELDS = [['Nombre', 'Daniel Martin'], ['Empresa', 'Naolito'], ['Email', 'dmartin@naolito.com']];
 
 function proofLink(send) {
   if (!send) return '';
@@ -27,7 +27,7 @@ function sendFoot(a) {
     return `<div class="foot"><span class="hint">Marca aquí cómo va la conversación.</span><select data-state aria-label="Estado">${AFTER_SEND.map((s) => `<option value="${s}" ${s === a.state ? 'selected' : ''}>${LABEL[s]}</option>`).join('')}</select></div>`;
   }
   if (a.state === 'atencion') {
-    return `<div class="foot"><span class="hint">Si lo resuelves por otra vía, márcalo aquí.</span><span class="acts"><button class="btn" data-action="requeue">Devolver a la cola</button><button class="btn" data-action="manual">Lo he enviado yo</button></span></div>`;
+    return `<div class="foot"><span class="hint">Si lo resuelves por otra vía, márcalo aquí.</span><span class="acts">${lastSend(a.id)?.status === 'enviado' ? '' : '<button class="btn" data-action="requeue">Devolver a la cola</button>'}<button class="btn" data-action="manual">Lo he enviado yo</button></span></div>`;
   }
   if (a.state === 'cola') {
     const hint = approved(a.lang) ? 'Un agente la enviará con la plantilla aprobada.' : 'Espera a que se apruebe su plantilla.';
@@ -57,7 +57,7 @@ function sendTab(a) {
   if (v === 'form') {
     body += `<div class="sheet"><div class="site"><span>Formulario de ${esc(host(a.form))}</span><span>Vista previa</span></div>
       ${FORM_FIELDS.map(([l, x]) => `<label class="field">${l}<input value="${esc(x)}" readonly></label>`).join('')}${fields}
-      <p class="attach muted">Un formulario no suele admitir adjuntos: el mensaje lleva el enlace al dossier.</p></div>`;
+      <p class="attach muted">Un formulario no suele admitir adjuntos: este envío no lleva el dossier.</p></div>`;
   } else {
     body += `<div class="sheet"><div class="site"><span>Para: ${esc(a.email || 'sin email público')}</span><span>Vista previa</span></div>${fields}
       <p class="attach muted">Adjunto: naolito-licensing-dossier-en.pdf</p></div>`;

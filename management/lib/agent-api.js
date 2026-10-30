@@ -73,8 +73,19 @@ async function recordSend(env, actor, id, input) {
   return { ok: true, send_id: insert.meta.last_row_id, state: status };
 }
 
+// A reply that only a person should answer. Only here does an agency come back to «Necesita a Nacho» after a send.
+async function escalateReply(env, actor, id, input) {
+  const why = text(input.note, 'note', 1000);
+  const done = await transition(env, actor, id, {
+    from: ['enviado', 'respondio'], to: 'atencion', kind: 'reply', text: `Necesita a Nacho: ${why}`, why,
+  });
+  if (!done) throw new HttpError(409, 'Esta agencia no está esperando respuesta.');
+  return { ok: true, state: 'atencion' };
+}
+
 async function markReply(env, actor, id, input) {
   await getAgency(env, id);
+  if (input.state === 'atencion') return escalateReply(env, actor, id, input);
   if (!REPLY_STATES.includes(input.state)) throw new HttpError(400, `«state» debe ser uno de: ${REPLY_STATES.join(', ')}.`);
   const note = input.note ? `: ${text(input.note, 'note', 1000)}` : '';
   const done = await transition(env, actor, id, {

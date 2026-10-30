@@ -67,6 +67,8 @@ async function agencyAction(env, actor, id, action, input) {
       || conflict('Ya no está en cola.');
   }
   if (action === 'requeue') {
+    const sent = await env.DB.prepare(`SELECT 1 AS yes FROM sends WHERE agency_id = ? AND status = 'enviado' LIMIT 1`).bind(id).first();
+    if (sent) conflict('Esta agencia ya recibió el primer contacto: no se le puede enviar otra vez.');
     return await transition(env, actor, id, {
       from: ['atencion', 'preparando'], to: 'cola', kind: 'queue', text: 'Devuelta a la cola', needsTemplate: true,
     }) || conflict('No se puede devolver a la cola: revisa que la plantilla esté aprobada.');

@@ -8,9 +8,15 @@
     "db:migrate": "wrangler d1 migrations apply naolito-management --remote",
     "db:seed": "npm run seed:build && wrangler d1 execute naolito-management --remote --file seed/seed.sql",
     "deploy": "npm run seed:build && wrangler pages deploy public --project-name naolito-management --branch main",
-    "access:aud": "node scripts/set-access-aud.mjs"
+    "access:aud": "node scripts/set-access-aud.mjs",
+    "agent": "node agent/cli.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.156.0"
+  },
+  "dependencies": {
+    "imapflow": "^2.10.0",
+    "mailparser": "^3.14.1",
+    "nodemailer": "^10.3.1"
   }
 }

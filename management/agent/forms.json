@@ -1,0 +1,33 @@
+{
+  "nuevo-mundo": {
+    "url": "https://nmlicencias.com/contacto/",
+    "fields": { "Nombre*": "Daniel Martin", "Correo electrónico*": "dmartin@naolito.com", "Mensaje": "{{body}}" },
+    "submit": "ENVIAR",
+    "note": "Solo hay nombre, correo y mensaje. Lleva reCAPTCHA invisible: si pide resolver algo, usa «stuck»."
+  },
+  "rb-licensing": {
+    "url": "https://artaskagency.com/contact/",
+    "fields": { "Your Name (required)": "Daniel Martin", "Your Email (required)": "dmartin@naolito.com", "Subject": "{{subject}}", "Your Message": "{{body}}" },
+    "submit": "Send",
+    "note": "Usa el formulario principal, no el del pie («Formulario»). La página muestra el texto «[recaptcha]» sin procesar: si el envío falla, usa «stuck»."
+  },
+  "dimensional-branding": {
+    "url": "https://www.dimensionalbranding.com/dbgcontactus",
+    "fields": { "First Name (required)": "Daniel", "Last Name (required)": "Martin", "Squad Name": "Naolito", "Email (required)": "dmartin@naolito.com", "Message (required)": "{{body}}" },
+    "check": ["Brand Representation"],
+    "submit": "Coin Up",
+    "note": "«Squad Name» es la empresa. No uses el formulario «Stay connected» del pie. Lleva captcha invisible: si pide resolver algo, usa «stuck»."
+  },
+  "home-made-licensing": {
+    "url": "https://homemadelicensing.com/contact.php",
+    "blocked": "Su formulario tiene un captcha. Publican contact@homemadelicensing.com: cambia la vía a email y devuélvela a la cola."
+  },
+  "surge-licensing": {
+    "url": "https://www.surgelicensing.com/Contact/",
+    "blocked": "Su página de contacto no tiene formulario. Publican elan@surging.com: cambia la vía a email y devuélvela a la cola."
+  },
+  "haven-global": {
+    "url": "https://www.havenglobal.com/contact-us",
+    "blocked": "Su página de contacto no tiene formulario. Publican info@havenglobal.com, pero esa vía no está en la ficha: envíalo a mano."
+  }
+}
