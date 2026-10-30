@@ -1,0 +1,600 @@
+{
+  "generated": "30 de octubre de 2026",
+  "summary": "20 agencias de licencias verificadas para representar «The Cute Side of Life» y las ilustraciones de Naolito: 7 en España y Latinoamérica, 7 en Reino Unido y Europa y 6 en Estados Unidos y Australia. Se han priorizado agencias boutique que hoy llevan ilustradores, personajes tiernos o kawaii, webcómics o marcas nacidas en redes, y que han fichado marcas medianas recientemente. Las grandes agencias que solo llevan marcas enormes quedan fuera.",
+  "agencies": [
+    {
+      "id": "we-love-licensing",
+      "name": "We Love Licensing",
+      "web": "https://welovelicensing.com/",
+      "region": "es-latam",
+      "country": "España (Madrid)",
+      "territories": "España y Latinoamérica como mercado principal; alcance internacional",
+      "size": "Boutique: 3 personas visibles en la web; 3 propiedades de entretenimiento (MIKECRACK, El Reino Infantil, herencia de Maradona) + 8 artistas; dicen llevar más de 15 años y más de 20.000 productos lanzados",
+      "size_url": "https://welovelicensing.com/",
+      "similar_brands": [
+        {"name": "MIKECRACK", "note": "youtuber y animador nacido en redes; peluche de Colorbaby n.º 1 en Amazon y libros con Planeta (más de 3,5 M de copias)", "url": "https://www.interempresas.net/Licencias/594592-We-Love-Licensing-Pasion-creatividad-y-estrategia-para-llevar-las-marcas-mas-alla.html"},
+        {"name": "División de art licensing", "note": "Car Pintos, Anne Gabillot, Clara Wall, Connie Tassara, Strawberry Style, Victoria Amor, Magu Villar, Angela Corti", "url": "https://welovelicensing.com/"},
+        {"name": "Strawberry Style", "note": "ilustradora de Buenos Aires de estilo tierno", "url": "https://strawberrystyle.com.ar/"}
+      ],
+      "emerging_signals": [
+        {"note": "Cartera corta que mezcla artistas individuales con propiedades grandes; se definen como agencia «flexible, cercana, creativa» que actúa «como extensión natural de cada propiedad»", "url": "https://www.interempresas.net/Licencias/594592-We-Love-Licensing-Pasion-creatividad-y-estrategia-para-llevar-las-marcas-mas-alla.html"},
+        {"note": "Activos: expusieron en Licensing Day Madrid en abril de 2026", "url": "https://www.interempresas.net/Licencias/631356-Propietarios-y-agentes-de-licensing-presentaron-sus-ultimas-novedades-en-Licensing-Day.html"}
+      ],
+      "terms": "No públicas. También ofrecen diseño de producto y guías de estilo, que podrían facturarse aparte (sin verificar).",
+      "contact": {
+        "email": "info@welovelicensing.com",
+        "phone": "+34 662 221 046 / +34 629 787 160",
+        "form": "https://welovelicensing.com/",
+        "person": "Luisa Ramírez (cofundadora, Brand & Licensing Manager) y Valeria Aza Lema (cofundadora; lleva la relación con licenciatarios)",
+        "person_url": "https://www.interempresas.net/Licencias/594592-We-Love-Licensing-Pasion-creatividad-y-estrategia-para-llevar-las-marcas-mas-alla.html"
+      },
+      "fit": "Es el perfil más parecido a Naolito en España: ya trabajan un personaje animado nacido en redes (MIKECRACK) y a ilustradoras, y Naolito sería una de pocas marcas, no la número 40.",
+      "risk": "Equipo muy pequeño y MIKECRACK absorbe mucha atención. Presencia demostrada fuera de España escasa; su red en Latinoamérica está sin verificar.",
+      "score": 9
+    },
+    {
+      "id": "brand-new-day",
+      "name": "Brand New Day Licensing (BND)",
+      "web": "https://www.bndlicensing.com/",
+      "region": "es-latam",
+      "country": "México (Ciudad de México)",
+      "territories": "México y Latinoamérica (para Mostropi: México, Colombia, Perú y Centroamérica); la web menciona también EE. UU.",
+      "size": "Boutique fundada en 2014 por Yolanda González; unas 4 marcas visibles; empleados no publicados",
+      "size_url": "https://www.bndlicensing.com/about-us/",
+      "similar_brands": [
+        {"name": "Pusheen", "note": "nombrados agentes en México en 2016; la web lo sigue mostrando", "url": "https://www.bndlicensing.com/our-brands/pusheen/"},
+        {"name": "Mostropi", "note": "osos cute colombianos nacidos en redes (unos 1,9 M de seguidores)", "url": "https://www.bndlicensing.com/our-brands/mostropi/"},
+        {"name": "Vania Bachur", "note": "ilustradora kawaii mexicana; licenciatarios como Penguin Random House", "url": "https://www.bndlicensing.com/our-brands/vania-bachur/"},
+        {"name": "Mafalda", "note": "personaje de cómic", "url": "https://www.bndlicensing.com/our-brands/mafalda/"}
+      ],
+      "emerging_signals": [
+        {"note": "Su web dice que trabajan para «construir presencia para ilustradores y sus marcas como Mostropi y Vania Bachur»", "url": "https://www.bndlicensing.com/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "form": "https://www.bndlicensing.com/",
+        "person": "Yolanda González, CEO y fundadora (26 años en licensing; presidenta de PROMARCA 2016-2019)",
+        "person_url": "https://www.linkedin.com/in/yolanda-gonzalez-1207452b/"
+      },
+      "fit": "Su cartera es casi idéntica al perfil de Naolito: personajes cute, ilustradoras y marcas nacidas en internet, con foco declarado en construir marcas de ilustradores.",
+      "risk": "Su web bloqueó la consulta directa y habla de «as of 2021»: no hay notas de prensa de 2025-2026 que confirmen la actividad actual. Pusheen en la misma cartera puede competir por la atención.",
+      "score": 8
+    },
+    {
+      "id": "caravanserai",
+      "name": "Caravanserai Partners",
+      "web": "https://caravanserai.eu/",
+      "region": "es-latam",
+      "country": "España (Sant Cugat del Vallès, Barcelona) con oficina en Milán",
+      "territories": "España, Portugal y Andorra; actividad también en Italia y Argentina",
+      "size": "Boutique: unas 16 propiedades en la web; «más de 40 años de experiencia» sumando el equipo",
+      "size_url": "https://caravanserai.eu/licensing/",
+      "similar_brands": [
+        {"name": "Molang", "note": "conejo cute creado por una ilustradora; agentes en Iberia desde mayo de 2026", "url": "https://www.totallicensing.com/millimages-appoints-caravanserai-for-molang/"},
+        {"name": "Miffy, Sophie la girafe, Little Corgi Cuties", "note": "personajes tiernos de diseño", "url": "https://caravanserai.eu/licensing/"}
+      ],
+      "emerging_signals": [
+        {"note": "Fichan propiedades nuevas de tamaño medio con regularidad (The Fixies, septiembre de 2025)", "url": "https://senalnews.com/en/content/animotion-media-appoints-caravanserai-partners-as-licensing-agent-for-the-fixies"},
+        {"note": "Se especializan en marcas lifestyle «cute y emocional» para moda, accesorios, hogar y papelería", "url": "https://caravanserai.eu/agente-licensing-espana/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "cp@caravanserai.eu",
+        "form": "https://caravanserai.eu/agente-licensing-espana/",
+        "person": "Guillem Rey, Managing Director (guillem@caravanserai.eu, +34 647 918 409); Gemma Rey (gemma@caravanserai.eu)",
+        "person_url": "https://www.licensingdayespana.es/en/Licensor/caravanserai/"
+      },
+      "fit": "Trabajan exactamente las categorías donde vende Naolito (moda, accesorios, hogar, papelería) con personajes tiernos de diseño, y acaban de fichar Molang.",
+      "risk": "Cartera inclinada a clásicos con herencia (Principito, Peter Rabbit); no se ve ninguna marca nacida en redes sin serie de TV. Solo Iberia.",
+      "score": 7
+    },
+    {
+      "id": "el-ocho",
+      "name": "El Ocho Licencias y Promociones",
+      "web": "https://el-ocho.com/",
+      "region": "es-latam",
+      "country": "España (Madrid)",
+      "territories": "España y Portugal",
+      "size": "Fundada en 2003; unos 7 empleados (RocketReach, fuente poco fiable); 70 marcas en la web, 43 de ellas en «Histórico»",
+      "size_url": "https://el-ocho.com/licencias/",
+      "similar_brands": [
+        {"name": "Pembe the Pink Cat", "note": "gato cute nacido en GIPHY (2.500 M de visualizaciones); firmado para Iberia en diciembre de 2024 y presentado en BLE 2025", "url": "https://www.interempresas.net/Licencias/582883-El-Ocho-anade-Pembe-the-Pink-Cat-a-su-portoflio.html"},
+        {"name": "Lady Desidia", "note": "ilustradora madrileña (no confirmado si es actual o histórica)", "url": "http://el-ocho.com/licencias/lady-desidia/"},
+        {"name": "Distroller", "note": "marca kawaii mexicana, desde 2018", "url": "https://www.sweetpress.com/actualidad/distroller-aterriza-en-espana-con-el-apoyo-de-el-ocho-licencias-y-promociones-y-grupo-cife-XKSP14055"}
+      ],
+      "emerging_signals": [
+        {"note": "Firmaron un gato cute nacido en redes (Pembe) y lo llevaron a Brand Licensing Europe 2025", "url": "https://www.interempresas.net/Licencias/611693-Los-propietarios-y-agentes-de-licensing-presentan-sus-novedades-en-Brand-Licensing-Europe.html"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "comunicacion@el-ocho.com",
+        "phone": "+34 91 350 40 90",
+        "form": "https://www.licensingdayespana.es/en/Licensor/el-ocho-licencias-promociones/",
+        "person": "En 2018: Eva Rubira (directora general) y Pilar Fernández-Vega (directora de Marketing y Licencias); cargos actuales sin verificar",
+        "person_url": "https://www.sweetpress.com/actualidad/distroller-aterriza-en-espana-con-el-apoyo-de-el-ocho-licencias-y-promociones-y-grupo-cife-XKSP14055"
+      },
+      "fit": "Agencia independiente líder en Iberia, con buena relación con retail y experiencia reciente con un gato cute nacido en redes.",
+      "risk": "Bluey, Dragon Ball y Mafalda dominan su cartera: Naolito podría quedar en segundo plano. Solo Iberia.",
+      "score": 6.5
+    },
+    {
+      "id": "byfrog",
+      "name": "byFrog Co.",
+      "web": "https://www.byfrog.com.br/",
+      "region": "es-latam",
+      "country": "Brasil (São Paulo); base en Miami prevista",
+      "territories": "Brasil y Latinoamérica",
+      "size": "Mediana: más de 10 marcas activas; empleados no publicados",
+      "size_url": "https://www.byfrog.com.br/",
+      "similar_brands": [
+        {"name": "B.Duck", "note": "pato cute; representado para toda Latinoamérica", "url": "https://www.byfrog.com.br/_pdf/PR_BR_B.Duck_byFrog.pdf"},
+        {"name": "tokidoki, emoji, Molang, Glitter Model", "note": "categoría Lifestyle", "url": "https://www.byfrog.com.br/"},
+        {"name": "Tania Oliveira Art", "note": "artista individual", "url": "https://licensingcon.com.br/tania-oliveira-art-byfrog/"}
+      ],
+      "emerging_signals": [
+        {"note": "Representan a una artista individual y siguen fichando (emoji para Brasil, julio de 2026)", "url": "https://www.emoji.com/emoji-the-iconic-brand-appoints-byfrog-as-licensing-agent-for-brazil/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "mkt@byfrog.com.br",
+        "phone": "+55 11 2639 6200",
+        "form": "https://www.byfrog.com.br/",
+        "person": "Rodrigo Dagnolo, CEO y fundador (Herbert Greco figura como Licensing Director en una fuente sin verificar)",
+        "person_url": "https://www.emoji.com/emoji-the-iconic-brand-appoints-byfrog-as-licensing-agent-for-brazil/"
+      },
+      "fit": "Fuerte en marcas lifestyle cute (B.Duck, tokidoki, Molang) y en Brasil, el mayor mercado de la región.",
+      "risk": "Gran parte del negocio es deporte y videojuegos; idioma portugués y ninguna marca española en cartera.",
+      "score": 6
+    },
+    {
+      "id": "nuevo-mundo",
+      "name": "Nuevo Mundo Licensing",
+      "web": "https://nmlicencias.com/",
+      "region": "es-latam",
+      "country": "Chile y Perú",
+      "territories": "Chile, Perú, Colombia y Ecuador; Centroamérica y Caribe con socios",
+      "size": "Boutique: 3 directivas en la web y unas 12 marcas; más de 20 años de experiencia",
+      "size_url": "https://nmlicencias.com/conoce-al-equipo/",
+      "similar_brands": [
+        {"name": "Mostropi, tokidoki", "note": "marca cute nacida en redes y marca kawaii de diseño", "url": "https://nmlicencias.com/"}
+      ],
+      "emerging_signals": [
+        {"note": "Llevan Mostropi, marca de redes de tamaño comparable a Naolito", "url": "https://nmlicencias.com/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "phone": "WhatsApp +56 9 6617 2684",
+        "form": "https://nmlicencias.com/contacto/",
+        "person": "Ana Betancour (CEO Chile-Perú); Carmen Gloria Donoso (directora comercial Chile); Rocío Talavera (directora comercial Perú)",
+        "person_url": "https://nmlicencias.com/conoce-al-equipo/"
+      },
+      "fit": "Boutique que ya lleva una marca cute de redes muy parecida a Naolito en el Pacífico sudamericano.",
+      "risk": "Alcance regional limitado y muy poca información pública sobre resultados o actividad reciente.",
+      "score": 5.5
+    },
+    {
+      "id": "rb-licensing",
+      "name": "R&B Licensing (antes Art Ask Agency)",
+      "web": "https://artaskagency.com/",
+      "region": "es-latam",
+      "country": "España (Sitges, Barcelona); parte del grupo Rights & Brands",
+      "territories": "Mundial a través del grupo (oficinas en Reino Unido, Noruega, Finlandia, Japón y Hong Kong)",
+      "size": "Pequeña dentro de un grupo grande: unas 5 propiedades en su web; Rights & Brands compró la mayoría en febrero de 2026",
+      "size_url": "https://rightsandbrands.com/news/rights-and-brands-majority-partner-art-ask-agency/",
+      "similar_brands": [
+        {"name": "Anne Stokes, Frida Kahlo, Richard Scarry, House of Turnowsky", "note": "ilustración y arte; ninguna es cute ni nacida en redes", "url": "https://rightsandbrands.com/news/rights-brands-moomin-characters-ble-2026/"}
+      ],
+      "emerging_signals": [
+        {"note": "Históricamente representaron a ilustradores individuales (Victoria Francés, Anne Stokes)", "url": "https://www.rajacenna.com/news/2011-2/contract-at-art-ask-agency/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "info@artaskagency.com",
+        "phone": "+34 936 452 225",
+        "form": "https://artaskagency.com/contact/",
+        "person": "Maria Strid, fundadora, sigue dirigiendo desde Barcelona (grupo: licensing@rightsandbrands.com)",
+        "person_url": "https://rightsandbrands.com/news/rights-and-brands-majority-partner-art-ask-agency/"
+      },
+      "fit": "Única agencia española de art licensing con alcance mundial a través de un grupo europeo.",
+      "risk": "En plena integración en Rights & Brands, cuyo foco es arte, literatura y diseño de herencia, no lo kawaii.",
+      "score": 5.5
+    },
+    {
+      "id": "maximum-licensing",
+      "name": "Maximum Licensing",
+      "web": "https://find-and-update.company-information.service.gov.uk/company/10947745",
+      "region": "uk-eu",
+      "country": "Reino Unido (Warrington)",
+      "territories": "Reino Unido y Europa (Vexx); EMEA (Squishy Dumplings)",
+      "size": "Boutique dirigida por su fundadora, Sarah Fletcher; sociedad activa desde 2017; plantilla no publicada; sin web operativa (maximumlicensing.com da 404)",
+      "size_url": "https://find-and-update.company-information.service.gov.uk/company/10947745",
+      "similar_brands": [
+        {"name": "Vexx", "note": "artista belga de doodles con criaturas, unos 750.000 seguidores en Instagram y 2,8 M en YouTube; agente exclusivo para Reino Unido y Europa desde julio de 2025, producto en 2026. Es el caso más parecido a Naolito de todo el estudio", "url": "https://licensinginternational.org/news/visual-artist-vexx-appoints-maximum-licensing-as-exclusive-licensing-agent-for-the-uk-and-europe/"},
+        {"name": "Mystery Squishy Dumplings", "note": "marca viral, EMEA desde agosto de 2026", "url": "https://www.toysnplaythings.media/maximum-licensing-appointed-for-rms-international/"},
+        {"name": "Battersea", "note": "julio de 2025", "url": "https://licensing.biz/battersea-appoints-maximum-licensing-to-manage-licensing-programme/"}
+      ],
+      "emerging_signals": [
+        {"note": "Ha firmado a un artista nacido en redes de tamaño parecido a Naolito (Vexx, 2025)", "url": "https://licensinginternational.org/news/visual-artist-vexx-appoints-maximum-licensing-as-exclusive-licensing-agent-for-the-uk-and-europe/"},
+        {"note": "Su fundadora fue General Manager de Fluid World cuando llevaba Sanrio y Pusheen", "url": "https://www.licensingsource.net/sarah-fletcher-joins-mga-as-uk-head-of-licensing/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "sarah@maximumlicensing.com",
+        "person": "Sarah Fletcher, fundadora y MD",
+        "person_url": "https://www.toysnplaythings.media/maximum-licensing-appointed-for-rms-international/"
+      },
+      "fit": "Experiencia directa con kawaii (Pusheen, Sanrio en Fluid World) y con un artista de redes del tamaño de Naolito; cartera pequeña, así que Naolito tendría atención.",
+      "risk": "Prácticamente una sola persona, sin equipo propio en el continente y sin web operativa.",
+      "score": 8
+    },
+    {
+      "id": "rocket-licensing",
+      "name": "Rocket Licensing",
+      "web": "https://www.rocketlicensing.com",
+      "region": "uk-eu",
+      "country": "Reino Unido (Londres)",
+      "territories": "Sobre todo Reino Unido e Irlanda; fue agente global de Fuzzballs",
+      "size": "4 personas en la web; unos 18 años de trayectoria; cartera con Miffy, Bing, Dog Man, SuperThings, Elf on the Shelf, Kodak, Dune",
+      "size_url": "https://www.rocketlicensing.com",
+      "similar_brands": [
+        {"name": "Fuzzballs", "note": "webcomic de Tumblr con stickers kawaii; agente global desde 2019 y acuerdo con Fanattik en diciembre de 2024. Ya no aparece en su web: puede que la relación haya terminado", "url": "https://kidscreen.com/2019/12/09/fuzzballs-takes-off-with-rocket-licensing/"},
+        {"name": "Miffy", "note": "personaje tierno de ilustración", "url": "https://www.rocketlicensing.com"}
+      ],
+      "emerging_signals": [
+        {"note": "SpudBros, marca nacida en redes, para Reino Unido e Irlanda (septiembre de 2026)", "url": "https://www.brandsuntapped.com/rocket-licensing-eyes-partners-across-apparel-gift-publishing-and-more-for-spudbros/"},
+        {"note": "Cerró producto para Fuzzballs con Fanattik en 2024", "url": "https://www.brandsuntapped.com/fanattik-to-launch-fuzzballs-gifts-in-2025/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "Rob@rocketlicensing.com",
+        "form": "https://www.rocketlicensing.com",
+        "person": "Rob y Charlie (Charlie@rocketlicensing.com), Joint Managing Directors",
+        "person_url": "https://www.rocketlicensing.com"
+      },
+      "fit": "Fuzzballs era casi un calco de Naolito y siguen fichando marcas nacidas en redes (SpudBros, 2026).",
+      "risk": "Convive con marcas muy grandes (Miffy, Bing, Dog Man) y cubre básicamente Reino Unido e Irlanda.",
+      "score": 7
+    },
+    {
+      "id": "home-made-licensing",
+      "name": "Home Made Licensing",
+      "web": "https://homemadelicensing.com/en/",
+      "region": "uk-eu",
+      "country": "Francia (París)",
+      "territories": "Francia directamente; subagentes en Europa, Asia y EE. UU.",
+      "size": "Fundada en 2011 por Aline Gondoin; más de 60 creativos representados; estructura aparentemente muy pequeña",
+      "size_url": "https://www.licensingmagazine.com/2023/03/27/home-made-licensing-the-french-independent-licensing-agency/",
+      "similar_brands": [
+        {"name": "Pembe the Pink Cat", "note": "personaje de un diseñador independiente de Copenhague nacido en Instagram/GIPHY", "url": "https://homemadelicensing.com/en/artistes/pembe-the-pink-cat.php"},
+        {"name": "Monsieur Bear", "note": "osito ilustrado de Virginie Aracil", "url": "https://homemadelicensing.com/en/artistes/monsieur-bear.php"},
+        {"name": "Dodo et Cath, Rebecca Bonbon, Simon Superlapin", "note": "ilustradores y personajes tiernos", "url": "https://homemadelicensing.com/en/"}
+      ],
+      "emerging_signals": [
+        {"note": "Representa a ilustradores pequeños junto a clásicos (El Principito, Le Petit Nicolas) y busca subagentes por territorio", "url": "https://www.licensingmagazine.com/2023/03/27/home-made-licensing-the-french-independent-licensing-agency/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "contact@homemadelicensing.com",
+        "phone": "+33 6 78 05 14 24",
+        "form": "https://homemadelicensing.com/contact.php",
+        "person": "Aline Gondoin, fundadora",
+        "person_url": "https://homemadelicensing.com/contact.php"
+      },
+      "fit": "Su negocio son justamente ilustradores y personajes tiernos a una escala parecida a Naolito; Francia es un gran mercado de papelería y regalo.",
+      "risk": "Muy centrada en Francia; el alcance internacional depende de subagentes.",
+      "score": 7
+    },
+    {
+      "id": "start-licensing",
+      "name": "Start Licensing",
+      "web": "http://startlicensing.co.uk/",
+      "region": "uk-eu",
+      "country": "Reino Unido",
+      "territories": "Reino Unido",
+      "size": "Muy pequeña, dirigida por su fundador Ian Downes (fundada en 2003; Lifetime Achievement Award 2016); plantilla no publicada",
+      "size_url": "https://www.developconference.com/speakers/ian-downes",
+      "similar_brands": [
+        {"name": "Bouffants and Broken Hearts (Kendra Dandy)", "note": "ilustradora de marca «quirky»; Bioworld amplió su licencia tras las ventas en Next (BLE 2026)", "url": "https://www.licenseglobal.com/art-design/start-rep-bouffants-and-broken-hearts"}
+      ],
+      "emerging_signals": [
+        {"note": "Firmaron Bouffants cuando tenía unos 25.000 fans en redes", "url": "https://www.licenseglobal.com/art-design/start-rep-bouffants-and-broken-hearts"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "form": "https://x.com/startlicensing",
+        "person": "Ian Downes, fundador (web caída durante la investigación; sin email verificado)",
+        "person_url": "https://www.developconference.com/speakers/ian-downes"
+      },
+      "fit": "Trato directo con un veterano del sector que sabe convertir a una ilustradora pequeña en producto en retail británico (Next).",
+      "risk": "Solo Reino Unido, depende de una persona y la web estaba caída.",
+      "score": 7
+    },
+    {
+      "id": "active-merchandising",
+      "name": "Active Merchandising",
+      "web": "https://activemerchandising.de/",
+      "region": "uk-eu",
+      "country": "Alemania (Kaarst)",
+      "territories": "Alemania, Austria y Suiza; algunos derechos mundiales",
+      "size": "Dirigida desde 2007 por su propietaria, Anita van Esch, única persona de contacto en la web",
+      "size_url": "https://activemerchandising.de/",
+      "similar_brands": [
+        {"name": "Molang", "note": "Alemania, Austria y Suiza", "url": "https://activemerchandising.de/project/molang/"},
+        {"name": "Lou Patrou", "note": "artista independiente", "url": "https://activemerchandising.de/brand-catalogue/"},
+        {"name": "Catsline", "note": "gatos ilustrados franceses (en portada, no en el catálogo: puede que ya no la lleven)", "url": "https://activemerchandising.de/"}
+      ],
+      "emerging_signals": [
+        {"note": "La web dice que trabaja con «new evolving or classic established brands… design or digital»", "url": "https://activemerchandising.de/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "anita.vanesch@activemerchandising.de",
+        "person": "Anita van Esch, propietaria",
+        "person_url": "https://activemerchandising.de/"
+      },
+      "fit": "Experiencia con personajes tiernos y artistas en el mayor mercado de Europa, a un tamaño pequeño.",
+      "risk": "Solo Alemania, Austria y Suiza y dependencia de una persona.",
+      "score": 6.5
+    },
+    {
+      "id": "starbright",
+      "name": "Starbright Licensing",
+      "web": "https://starbrightlicensing.it/",
+      "region": "uk-eu",
+      "country": "Italia (Módena)",
+      "territories": "Italia; la web menciona también Europa",
+      "size": "Fundada hacia 2014; CEO Giada Paterlini; facturación de unos 763.000 € en 2024",
+      "size_url": "https://www.fatturatoazienda.it/azienda/starbright-licensing-srl-03559110360",
+      "similar_brands": [
+        {"name": "Chiikawa, Mofusand, Koupen Chan", "note": "personajes kawaii japoneses", "url": "https://www.licensingitalia.it/starbright-licensing-agente-in-italia-per-chiikawa-mofusand-e-kou-pen-chan-di-spiralcute-international/"},
+        {"name": "Sanrio (My Melody, Kuromi, Cinnamoroll)", "note": "kawaii", "url": "https://www.licensingmagazine.it/2025/03/26/starbright-licensing-novita-e-prospettive-future/"},
+        {"name": "Romero Britto", "note": "art licensing", "url": "https://www.licensingitalia.it/starbright-licensing-nuovi-progetti-e-opportunita-al-milano-licensing-day/"}
+      ],
+      "emerging_signals": [
+        {"note": "Débiles: la cartera es sobre todo de propiedades japonesas grandes; último fichaje Barbapapà (septiembre de 2026)", "url": "https://starbrightlicensing.it/en/news/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "info@starbrightlicensing.it",
+        "person": "Giada Paterlini, CEO",
+        "person_url": "https://www.licensingmagazine.it/2025/03/26/starbright-licensing-novita-e-prospettive-future/"
+      },
+      "fit": "La agencia más kawaii de Europa continental: sus licenciatarios ya compran exactamente el estilo de Naolito.",
+      "risk": "Naolito quedaría detrás de Sanrio y Dragon Ball; en la práctica solo Italia.",
+      "score": 5.5
+    },
+    {
+      "id": "fluid-world",
+      "name": "Fluid World",
+      "web": "https://fluidworld.co.uk/",
+      "region": "uk-eu",
+      "country": "Reino Unido (Somerset)",
+      "territories": "Reino Unido y Europa (equipo repartido por Europa del Este, DACH, Nórdicos, Benelux, Francia, España y Portugal)",
+      "size": "6 personas; sociedad activa desde 2008",
+      "size_url": "https://fluidworld.co.uk/our-team",
+      "similar_brands": [
+        {"name": "Pusheen", "note": "agentes en Reino Unido y Europa; programa de más de 50 licenciatarios", "url": "https://www.licensingsource.net/pusheen-hits-50-licensee-milestone/"}
+      ],
+      "emerging_signals": [
+        {"note": "Ninguna: no hay marcas pequeñas recientes en su cartera; los demás fichajes localizados son antiguos (Chupa Chups, Top Gear, Supa Strikas)", "url": "https://fluidworld.co.uk/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "admin@fluidworld.co.uk",
+        "person": "Claire Slight (Commercial Director); Hanna Netherway (Licensing Manager, Reino Unido, Benelux, Francia, España y Portugal)",
+        "person_url": "https://fluidworld.co.uk/our-team"
+      },
+      "fit": "Nadie conoce mejor el canal kawaii europeo, con cobertura paneuropea real.",
+      "risk": "Su cartera depende casi por completo de Pusheen, competidor directo de Naolito, y no hay indicios de que cojan marcas de este tamaño.",
+      "score": 5
+    },
+    {
+      "id": "dimensional-branding",
+      "name": "Dimensional Branding Group (DBG)",
+      "web": "https://dimensionalbranding.com/",
+      "region": "us",
+      "country": "EE. UU. (Pulaski / Green Bay, Wisconsin); división de Bay Tek Entertainment",
+      "territories": "Sobre todo EE. UU. y Canadá; mundial en algunos casos (Sad Nuggie, todas las categorías)",
+      "size": "2 Licensing Managers en su web (en 2024 también un VP y una directora); unas 7 marcas; puesto 54 del ranking mundial de agentes 2025 (69 M$ en ventas minoristas), el más pequeño de los verificados",
+      "size_url": "https://www.dimensionalbranding.com/dbgteam-aboutus",
+      "similar_brands": [
+        {"name": "Sad Nuggie", "note": "nugget de pollo nacido en redes (más de 3 M de seguidores); desde febrero de 2024. Licencias con Surreal (Hot Topic), Five Below/Walmart, Andrews McMeel y Buffalo Games", "url": "https://licensinginternational.org/news/dimensional-branding-group-to-represent-sad-nuggie/"},
+        {"name": "Abi Toads", "note": "artista y animadora con ranas, sapos y «Mushlings» y comunidad en TikTok, Instagram y YouTube; firmada hacia septiembre de 2026", "url": "https://www.dimensionalbranding.com/dbgblog/introducing-abi-toads"},
+        {"name": "Tasty Peach", "note": "personajes kawaii (cliente antiguo, ya no sale en la web)", "url": "https://www.licenseglobal.com/licensing-resources/dbg-announce-great-eastern-new-tasty-peach-licensee"}
+      ],
+      "emerging_signals": [
+        {"note": "Su Licensing Manager dice que lo más gratificante es que marcas emergentes «achieve a level of success beyond their expectations» y que su mayor reto es encontrar clientes nuevos que encajen", "url": "https://licensinginternational.org/news/people-profile-andrew-neerdaels-licensing-manager-at-dimensional-branding-group/"},
+        {"note": "Primeros licenciatarios de Sad Nuggie conseguidos en meses", "url": "https://thelicensingletter.com/viral-tiktok-sensation-sad-nuggie-enters-world-of-licensing/"}
+      ],
+      "terms": "No públicas. Referencia del sector en EE. UU.: 30-40 % de los royalties (hasta 50 %), contratos de 2-3 años y comisión residual decreciente tras terminar.",
+      "contact": {
+        "form": "https://www.dimensionalbranding.com/dbgcontactus",
+        "person": "Andrew Neerdaels (habla español) y Claire Westlund, Licensing Managers; hello@dimensionalbranding.com figura en directorios externos",
+        "person_url": "https://www.dimensionalbranding.com/dbgteam-aboutus"
+      },
+      "fit": "El perfil más parecido a Naolito en EE. UU.: personajes de artista, tiernos y nacidos en redes, y una agencia pequeña que busca activamente clientes así.",
+      "risk": "Equipo mínimo; el grupo se centra en recreativas; su red es retail estadounidense (Hot Topic, Five Below) con poca experiencia internacional.",
+      "score": 8
+    },
+    {
+      "id": "kaufman-licensing",
+      "name": "Kaufman Licensing",
+      "web": "https://www.kaufmanlicensing.com",
+      "region": "us",
+      "country": "EE. UU. (Los Ángeles)",
+      "territories": "Norteamérica",
+      "size": "Boutique creada en 2025 por Sid Kaufman (9 años VP de licencias en UTA); sin datos de plantilla",
+      "size_url": "https://kidscreen.com/2025/01/28/sid-kaufman-goes-independent-to-launch-a-new-agency/",
+      "similar_brands": [
+        {"name": "Little Corgi Cuties (CUTESY)", "note": "marca del ilustrador Jerrod Maruyama basada en contenido diario en redes; agente en Norteamérica", "url": "https://toybook.com/may-2026-hot-licenses/"},
+        {"name": "The Wiggles", "note": "agente en Norteamérica desde diciembre de 2025, coordinado con Haven", "url": "https://toybook.com/the-wiggles-kaufman-licensing-news/"}
+      ],
+      "emerging_signals": [
+        {"note": "En UTA trabajó marcas nacidas en lo digital (Blippi, Cocomelon) y defiende la «democratización» del licensing por el contenido digital", "url": "https://www.licenseglobal.com/licensing-resources/licensing-mixtape-digital-media-and-democratization-licensing"},
+        {"note": "Agencia nueva en plena construcción de cartera", "url": "https://kidscreen.com/2025/01/28/sid-kaufman-goes-independent-to-launch-a-new-agency/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "form": "https://www.kaufmanlicensing.com",
+        "person": "Sid Kaufman, presidente",
+        "person_url": "https://toybook.com/the-wiggles-kaufman-licensing-news/"
+      },
+      "fit": "Ya lleva una marca de ilustrador tierna nacida en redes y está construyendo cartera, con contactos de primer nivel en EE. UU.",
+      "risk": "Puede ser prácticamente una sola persona; foco infantil y familiar; Little Corgi Cuties tiene mucho capital detrás, así que no es el mismo caso que Naolito.",
+      "score": 7
+    },
+    {
+      "id": "surge-licensing",
+      "name": "Surge Licensing",
+      "web": "https://www.surgelicensing.com",
+      "region": "us",
+      "country": "EE. UU. (Jericho, Nueva York; oficina en Los Ángeles)",
+      "territories": "Norteamérica (WEBTOON); mundial en otros casos",
+      "size": "2-10 empleados (LinkedIn); unas 6 propiedades; fundada en 1986 por Mark Freedman (Tortugas Ninja)",
+      "size_url": "https://surgelicensing.com/Company/",
+      "similar_brands": [
+        {"name": "WEBTOON", "note": "agente exclusivo en Norteamérica desde mayo de 2022; primeros licenciatarios en 2023 (Bioworld, Walter Foster, FiGPiN, Event Merchandising)", "url": "https://about.webtoon.com/press-release/67"},
+        {"name": "Thimblestump Hollow", "note": "criaturas «creepy-cute» de artistas (2019)", "url": "https://www.licenseglobal.com/character/surge-licensing-named-agent-thimblestump-hollow"}
+      ],
+      "emerging_signals": [
+        {"note": "Su VP de desarrollo de negocio se dedica a identificar contenido emergente en nuevos medios y cómics (Axe Cop, Dick Figures)", "url": "https://surgelicensing.com/Company/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "elan@surging.com",
+        "phone": "+1 516 939 2225",
+        "form": "https://www.surgelicensing.com/Contact/",
+        "person": "Elan Freedman, VP Business Development",
+        "person_url": "https://www.surgelicensing.com/Contact/"
+      },
+      "fit": "Experiencia real con webcomics y personajes de artistas en una agencia pequeña.",
+      "risk": "Noticias paradas en 2022 y sin acuerdos de WEBTOON después de 2023: no se puede confirmar que siga vigente. Los acuerdos de 2025-2026 en prensa son de Surge Brands, otra empresa. Público más juvenil y masculino.",
+      "score": 6
+    },
+    {
+      "id": "jewel-branding",
+      "name": "Jewel Branding & Licensing",
+      "web": "https://www.jewelbranding.com/",
+      "region": "us",
+      "country": "EE. UU. (Atlanta)",
+      "territories": "Norteamérica, con red en Latinoamérica, India, Asia, Australasia y Europa",
+      "size": "Unos 50 artistas, marcas e instituciones (sin confirmar en su web); puesto 47 del ranking 2025 (200 M$)",
+      "size_url": "https://thelicensingletter.com/jewel-the-licensing-agency-that-walks-in-beauty/",
+      "similar_brands": [
+        {"name": "Rongrong DeVoe", "note": "ilustradora de moda e influencer en redes", "url": "https://www.licenseglobal.com/art-design/jewel-branding-rep-fashion-illustrator"},
+        {"name": "Krissy Mast, EttaVee, Gabrielle Neil, Shanya Bharti", "note": "ilustradoras; Bharti (India) incorporada en febrero de 2026", "url": "https://www.totallicensing.com/jewel-spotlights-ongoing-growth-across-its-artist-and-designer-portfolio/"}
+      ],
+      "emerging_signals": [
+        {"note": "Siguen incorporando artistas nuevos e internacionales en 2026 y buscan clientes con «entrepreneurial spirit»", "url": "https://www.totallicensing.com/jewel-spotlights-ongoing-growth-across-its-artist-and-designer-portfolio/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "email": "info@jewelbranding.com",
+        "phone": "+1 404 303 1872",
+        "form": "https://www.jewelbranding.com/brand-artist-licensing-services/",
+        "person": "Katie Sklenar, Director of Licensing; Julie Newman (CEO) e Ilana Wilensky (President)",
+        "person_url": "https://www.totallicensing.com/jewel-spotlights-ongoing-growth-across-its-artist-and-designer-portfolio/"
+      },
+      "fit": "Muy buena para licenciar las ilustraciones de Naolito en papelería, hogar y regalo en EE. UU., y acepta artistas extranjeros.",
+      "risk": "Estética lifestyle y floral, no personajes kawaii: «The Cute Side of Life» podría quedar en segundo plano.",
+      "score": 6
+    },
+    {
+      "id": "haven-global",
+      "name": "Haven Global (antes Haven Licensing)",
+      "web": "https://www.havenglobal.com/",
+      "region": "us",
+      "country": "Australia (Sídney; oficina en Melbourne)",
+      "territories": "Australia y Nueva Zelanda",
+      "size": "28 empleados (LinkedIn); fundada en 1993; puesto 36 del ranking 2025 (350 M$)",
+      "size_url": "https://au.linkedin.com/company/haven-licensing-pty-ltd",
+      "similar_brands": [
+        {"name": "Pusheen", "note": "agentes en Australia y Nueva Zelanda desde 2016; premio «Boutique License of the Year» 2024", "url": "https://www.totallicensing.com/winners-of-australian-licensing-awards/"},
+        {"name": "Hello Kitty Cafés (Sanrio)", "note": "kawaii", "url": "https://www.havenglobal.com/"}
+      ],
+      "emerging_signals": [
+        {"note": "Cogieron Pusheen cuando era una marca de internet; siguen fichando en 2026 (Absolut, Malibu y Kahlúa)", "url": "https://www.buggreport.com.au/word-of-web-appoints-regional-representatives-for-pusheen-the-cat/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "phone": "+61 2 9357 9888",
+        "form": "https://www.havenglobal.com/contact-us",
+        "person": "Tom Punch (fundador y MD), Yvonne King (directora); Business Managers Di Markezic, Anna Dupree y Adam Garfi",
+        "person_url": "https://www.havenglobal.com/the-team"
+      },
+      "fit": "Han demostrado que saben llevar al mercado australiano personajes tiernos nacidos en internet (Pusheen).",
+      "risk": "Cartera con Pokémon, Sanrio y The Wiggles: una marca mediana podría quedar en segundo plano. Solo Australia y Nueva Zelanda; mercado secundario para Naolito.",
+      "score": 6.5
+    },
+    {
+      "id": "maximum-orbit",
+      "name": "Maximum Orbit",
+      "web": "https://www.maximumorbit.com/",
+      "region": "us",
+      "country": "EE. UU. (sede no publicada)",
+      "territories": "Mundial (Dungeon Crawler Carl) y EE. UU.",
+      "size": "Desconocido",
+      "size_url": "https://www.maximumorbit.com/",
+      "similar_brands": [
+        {"name": "Sarah's Scribbles y Cryptid Club (Sarah Andersen)", "note": "webcomic de redes con más de 4 M de seguidores en Instagram; joyería con Vinca USA (noviembre de 2024)", "url": "https://licensinginternational.org/news/vinca-usa-and-viral-creator-sarah-andersen-launch-jewelry-collection/"},
+        {"name": "Dungeon Crawler Carl", "note": "licencia global de merchandising (julio de 2025)", "url": "https://licensinginternational.org/news/maximum-orbit-to-represent-matt-dinnimans-dungeon-crawler-carl-for-merchandise-licensing/"}
+      ],
+      "emerging_signals": [
+        {"note": "Representan a creadores individuales nacidos en redes", "url": "https://www.maximumorbit.com/"}
+      ],
+      "terms": "No públicas.",
+      "contact": {
+        "form": "https://www.maximumorbit.com/contact",
+        "person": "No publicada. Su página de contacto dice que «does not accept unsolicited materials»: haría falta una presentación por un tercero",
+        "person_url": "https://www.maximumorbit.com/contact"
+      },
+      "fit": "Representan el webcomic de redes más parecido al tono de Naolito (Sarah's Scribbles).",
+      "risk": "Opacos, no aceptan propuestas no solicitadas y se centran en libros y juegos de mesa.",
+      "score": 5
+    }
+  ],
+  "top5": [
+    {"rank": 1, "id": "we-love-licensing", "territory": "España (y Latinoamérica en español)", "reason": "Es la agencia más parecida a lo que busca Naolito en su propio mercado: boutique, con un personaje animado nacido en redes que ya ha llegado a juguete y libro (MIKECRACK) y una división de ilustradoras. Naolito sería una de muy pocas marcas, en el mismo idioma y huso horario, y puede apoyarse en las tiendas físicas europeas que ya venden sus productos."},
+    {"rank": 2, "id": "maximum-licensing", "territory": "Reino Unido y Europa", "reason": "En julio de 2025 firmó a Vexx, un artista de doodles nacido en redes, de tamaño parecido a Naolito, para Reino Unido y Europa. Su fundadora llevó Pusheen y Sanrio en Fluid World: conoce el canal kawaii europeo y tiene una cartera pequeña, así que daría prioridad."},
+    {"rank": 3, "id": "dimensional-branding", "territory": "EE. UU. y Canadá (mundial en algunos casos)", "reason": "Lleva Sad Nuggie y Abi Toads, personajes de artista nacidos en redes, y les consigue licenciatarios en retail estadounidense en meses. Es el agente más pequeño del ranking mundial y dicen públicamente que su mayor reto es encontrar clientes así. Uno de sus managers habla español."},
+    {"rank": 4, "id": "brand-new-day", "territory": "México y Latinoamérica", "reason": "Su cartera es casi un espejo de Naolito: Pusheen en México, Mostropi (osos cute de redes) y la ilustradora kawaii Vania Bachur, y declara que construye marcas de ilustradores. Antes de firmar hay que confirmar que sigue activa en 2026."},
+    {"rank": 5, "id": "home-made-licensing", "territory": "Francia (resto de Europa, Asia y EE. UU. con subagentes)", "reason": "Agencia de ilustradores y personajes tiernos (Pembe the Pink Cat, Monsieur Bear) a la escala de Naolito, en el gran mercado europeo de papelería y regalo. Complementa bien a una agencia británica si Maximum no cubre Francia en la práctica."}
+  ],
+  "recommendation": [
+    "Empezar por España, con We Love Licensing como primera llamada y Caravanserai o El Ocho como alternativas si no encaja. Es donde Naolito tiene más pruebas que enseñar (tiendas físicas, más de 14 plataformas, comunidad en español), donde puede supervisar a la agencia y a los licenciatarios sin barreras de idioma ni de huso horario, y donde una agencia pequeña le dará prioridad de verdad. Los primeros licenciatarios españoles sirven después como caso de éxito para el resto de territorios.",
+    "En paralelo, abrir conversación en Reino Unido con Maximum Licensing. Es el mayor mercado de licencias de Europa y la mejor puerta a la distribución europea, y el precedente de Vexx demuestra que firman marcas como Naolito. Estados Unidos (Dimensional Branding Group) conviene dejarlo para cuando haya uno o dos licenciatarios firmados que enseñar, salvo que DBG muestre interés antes.",
+    "Firmar por territorio y no en exclusiva mundial: contratos de 2 a 3 años con mínimos de rendimiento y salida si no se cumplen. La comisión de mercado es del 30 al 40 % de los royalties, a veces hasta el 50 %. Hay que vigilar la comisión residual tras terminar y, con una agencia española, la indemnización por clientela de la Ley 12/1992 de Contrato de Agencia. Conviene revisarlo con un abogado antes de firmar."
+  ],
+  "discarded": [
+    {"name": "Brand New Day como agente de Pusheen para toda Latinoamérica", "reason": "Solo parcialmente cierto: los nombraron en 2016 únicamente para México y no se ha podido confirmar que siga vigente en 2025-2026.", "url": "https://www.buggreport.com.au/word-of-web-appoints-regional-representatives-for-pusheen-the-cat/"},
+    {"name": "Notorious Brands and People (Valencia)", "reason": "Existe y está activa (info@notorious.es; director Julio Cano), pero su cartera es de famosos, música, deporte y moda (Camarón, WRC, Los Futbolísimos); sin ilustradores ni marcas cute. Encaje 3/10.", "url": "https://notorious.es/"},
+    {"name": "Tycoon Enterprises (México y Latinoamérica)", "reason": "Demasiado grande: 9 países, Sanrio, Real Madrid, Paramount, Bluey; comprada por Fillip a finales de 2024.", "url": "https://www.totallicensing.com/fillip-bets-on-licensing-in-latin-america-with-the-acquisition-of-tycoon-enterprises/"},
+    {"name": "IMC International Merchandising (Argentina)", "reason": "Activa (Molang en Centro y Sudamérica, Keith Haring, Care Bears) pero veterana y muy de entretenimiento. Alternativa posible, encaje 5/10.", "url": "https://www.imclicensing.com.ar/en/"},
+    {"name": "Ypsilon Licensing (Cataluña)", "reason": "Llevó Grumpy Cat en Iberia, pero las noticias son de 2017-2019; actividad actual sin verificar.", "url": "https://www.interempresas.net/Licencias/343813-Ypsilon-Licensing-nuevo-agente-exclusivo-de-Godzilla-en-Espana.html"},
+    {"name": "AMV Licensing (Perú) y Smilehood (Argentina)", "reason": "Existen, pero llevan sobre todo anime y entretenimiento grande. Encaje bajo.", "url": "https://amvlicensing.com/"},
+    {"name": "Reemsborko (Reino Unido)", "reason": "Lleva Gloomy Bear, All Purpose Bunny y Mimi & Neko en EMEA y al ilustrador Kid Acne, pero ahora crece con pop culture y anime (Ghost in the Shell, Dragon Ball Z). Encaje 4,5/10; alternativa si se quiere un perfil kawaii japonés.", "url": "https://downthetubes.net/gloomy-bear-all-purpose-bunny-mimi-and-neko-reemsborko-signs-on-as-european-agent-for-everything-octas/"},
+    {"name": "Big Picture Licensing (Reino Unido)", "reason": "Lleva emoji en Reino Unido e Irlanda, BT21 y Fuggler (dan@bigpicturelicensing.com), pero sus noticias no se actualizan desde 2024.", "url": "https://bigpicturelicensing.com/"},
+    {"name": "The Bright Agency (Londres)", "reason": "Licencias de ilustradores, pero sobre todo de libro infantil.", "url": "https://thebrightagency.com/uk/brand-licensing"},
+    {"name": "LIT Licensing (Estocolmo)", "reason": "Nórdicos y Bálticos con Bluey y Paddington: demasiado regional y mainstream.", "url": "https://litlicens.com/"},
+    {"name": "Dimensional Branding Group", "reason": "No es británica: tiene sede en Wisconsin (EE. UU.); ver la sección de EE. UU.", "url": "https://licensinginternational.org/news/dimensional-branding-group-to-represent-sad-nuggie/"},
+    {"name": "Rights & Brands, Bulldog Licensing", "reason": "Existen pero son demasiado grandes (Rights & Brands es el n.º 14 mundial con Moomin; Bulldog lleva Care Bears y Sesame Street).", "url": "https://rightsandbrands.com/news/rights-brands-is-the-top-14-licensing-agent-in-the-world/"},
+    {"name": "Pink Key, Licensing Matters Global, Mon Licensing", "reason": "No encajan: Pink Key hace alimentación (Kellogg's), Licensing Matters Global opera desde Hong Kong con marcas corporativas y Mon Licensing trabaja en Panamá y Colombia.", "url": "https://www.licensingsource.net/pink-key-licensing-to-represent-future-brands-portfolio/"},
+    {"name": "Brand Ventures, Licensing Pro, Studio Licensing", "reason": "No se encontraron agencias activas con esos nombres.", "url": ""},
+    {"name": "Surge Licensing como agente actual de WEBTOON", "reason": "Confirmado desde 2022 para Norteamérica, pero no hay acuerdos posteriores a 2023: vigencia en 2025-2026 sin confirmar. Ojo: Surge Brands (Ari Freedman) es otra empresa.", "url": "https://about.webtoon.com/press-release/67"},
+    {"name": "Haven Licensing como agente de Pusheen", "reason": "Confirmado: Australia y Nueva Zelanda desde 2016 (hoy se llama Haven Global). Incluida en la lista.", "url": "https://www.buggreport.com.au/word-of-web-appoints-regional-representatives-for-pusheen-the-cat/"},
+    {"name": "Licensing Street (Nueva York)", "reason": "Agente de Molang en EE. UU. desde 2023, pero con cartera de marcas grandes (Sonic, Coraline, Daniel Tiger; puesto 26 del ranking, 625 M$). Priorizar a Naolito no está garantizado. Encaje 5/10.", "url": "https://licensinginternational.org/news/licensing-street-to-represent-molang-in-the-united-states/"},
+    {"name": "KO Media Management (EE. UU.)", "reason": "Representa a Liz Climo y Catana Comics, artistas nacidos en Instagram, y acepta propuestas (query@komediamanagement.com), pero su fuerte es la edición de libros, no los productos de consumo. Alternativa si interesa un libro.", "url": "https://komediamanagement.com/submissions/"},
+    {"name": "Brand Central, Brandgenuity, Joester Loria Group, Retail Monster", "reason": "Demasiado grandes (puestos 6, 8, 10 y 17 del ranking mundial 2025, entre 1.400 y 4.000 M$).", "url": "https://eu-assets.contentstack.com/v3/assets/blt8770191dea35bccc/blta9cf4d0913689429/67f68638a3a0646c0c7622f7/LIC_250304_TopAgents_2025_Copyright_V3.pdf"},
+    {"name": "Global Brand Group", "reason": "Ya no existe por separado: es parte de CAA Brand Management, excluida.", "url": "https://www.licenseglobal.com/licensing-resources/caa-gbg"},
+    {"name": "MHS Licensing y Wild Apple", "reason": "Activas, pero licencian arte decorativo, no personajes. Solo servirían para las ilustraciones.", "url": "https://www.mhslicensing.com/"},
+    {"name": "Brand Squared, Iconic Brands Group", "reason": "Marcas corporativas y de alimentación, sin personajes.", "url": ""}
+  ],
+  "method": [
+    "Fuentes: webs de las agencias, Licensing International, License Global (incluido su ranking de agentes 2025), Licensing Source, The Licensing Letter, Total Licensing, Kidscreen, Toy Book, Interempresas, Brands Untapped, expositores de Licensing Day Madrid y Brand Licensing Europe, Companies House y notas de prensa de nombramientos.",
+    "Encaje (1-10): parecido de la cartera con Naolito, tamaño de la agencia (más pequeña = más prioridad), señales de fichajes recientes de marcas medianas y actividad en 2025-2026.",
+    "Las webs de Brand New Day, Start Licensing y algunas páginas de License Global bloquearon la lectura directa; en esos casos el dato sale del resultado del buscador de esa misma página y se indica en el riesgo.",
+    "Ninguna agencia publica sus condiciones. La referencia de mercado (30-40 % de royalties, hasta 50 %; 2-3 años; comisión residual tras terminar) viene del abogado David Koehser (dklex.com) y de IMC Licensing.",
+    "Los tamaños son aproximados (webs, LinkedIn, registros mercantiles) y conviene confirmarlos en la primera llamada.",
+    "No se ha contactado con ninguna agencia ni rellenado ningún formulario."
+  ]
+}

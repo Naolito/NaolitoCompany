@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agencias de licencias para Naolito</title>
+<style>
+  :root {
+    --bg: #fbf8f4; --fg: #2b2a33; --muted: #77737f; --card: #fff; --line: #e8e2da;
+    --accent: #e0607e; --accent-soft: #fde7ec; --ok: #2f8f6b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1d1c22; --fg: #ece9f1; --muted: #a29eab; --card: #27262e; --line: #3a3842;
+            --accent: #ff8aa5; --accent-soft: #3b2730; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--fg); }
+  main { max-width: 1180px; margin: 0 auto; padding: 32px 20px 80px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  h2 { font-size: 22px; margin: 44px 0 14px; border-bottom: 2px solid var(--accent); padding-bottom: 6px; }
+  h2 small { color: var(--muted); font-weight: 400; font-size: 15px; }
+  h3 { font-size: 17px; margin: 0; }
+  a { color: var(--accent); }
+  .muted, .meta { color: var(--muted); }
+  .meta { font-size: 13.5px; margin: 4px 0; }
+  .lead { font-size: 16px; max-width: 860px; }
+  nav { position: sticky; top: 0; background: var(--bg); padding: 10px 0; z-index: 2;
+        border-bottom: 1px solid var(--line); display: flex; gap: 8px; flex-wrap: wrap; }
+  nav a, nav button { font: inherit; font-size: 13.5px; padding: 5px 12px; border-radius: 99px;
+        border: 1px solid var(--line); background: var(--card); color: var(--fg); text-decoration: none; cursor: pointer; }
+  nav button.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .top5 { padding-left: 22px; }
+  .top5 li { margin-bottom: 18px; padding: 14px 16px; background: var(--card); border: 1px solid var(--line);
+             border-left: 4px solid var(--accent); border-radius: 10px; }
+  .top5 li::marker { font-weight: 700; color: var(--accent); }
+  .top5 p { margin: 6px 0 0; }
+  .terr { font-size: 13px; font-weight: 500; background: var(--accent-soft); color: var(--fg);
+          padding: 2px 9px; border-radius: 99px; margin-left: 6px; }
+  .reco { background: var(--accent-soft); border-radius: 12px; padding: 16px 20px; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); font-size: 14px;
+          border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  th { background: var(--accent-soft); }
+  td.num { font-weight: 700; text-align: center; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+  .card header { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+  .score { font-size: 24px; font-weight: 800; color: var(--accent); white-space: nowrap; }
+  .score small { font-size: 12px; color: var(--muted); font-weight: 400; }
+  .badge { font-size: 11.5px; padding: 2px 8px; border-radius: 99px; vertical-align: middle; }
+  .badge.top { background: var(--accent); color: #fff; }
+  details { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 6px; }
+  summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+  details ul { margin: 6px 0; padding-left: 18px; font-size: 14px; }
+  details p { font-size: 14px; margin: 6px 0; }
+  .fit { margin-top: 10px; font-size: 14px; }
+  .fit p { margin: 4px 0; }
+  .src { font-size: 12px; }
+  .hidden { display: none !important; }
+  footer { margin-top: 50px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Agencias de licencias para Naolito</h1>
+  <p class="meta">Investigación en fuentes públicas · {{DATE}} · {{COUNT}} agencias · descarga la tabla en <a href="agencias.csv">agencias.csv</a></p>
+  <p class="lead">{{SUMMARY}}</p>
+
+  <nav>
+    <a href="#top5">Top 5</a><a href="#reco">Por dónde empezar</a><a href="#tabla">Tabla</a>
+    <button class="on" data-filter="all">Todas</button>
+    <button data-filter="es-latam">España y LatAm</button>
+    <button data-filter="uk-eu">Reino Unido y Europa</button>
+    <button data-filter="us">EE. UU. y APAC</button>
+  </nav>
+
+  <h2 id="top5">Top 5 para empezar a contactar</h2>
+  {{TOP5}}
+
+  <h2 id="reco">Por qué territorio empezar</h2>
+  <div class="reco">{{RECOMMENDATION}}</div>
+
+  <h2 id="tabla">Resumen</h2>
+  {{TABLE}}
+
+  {{SECTIONS}}
+
+  <h2>Pistas descartadas o no verificadas</h2>
+  {{DISCARDED}}
+
+  <h2>Método y límites</h2>
+  <ul>{{METHOD}}</ul>
+
+  <footer>Solo investigación en páginas públicas: no se ha contactado con ninguna agencia ni rellenado formularios.
+  Los datos de tamaño y condiciones son aproximados y conviene confirmarlos en la primera llamada.</footer>
+</main>
+<script>
+  document.querySelectorAll("nav button").forEach(btn => btn.addEventListener("click", () => {
+    document.querySelectorAll("nav button").forEach(b => b.classList.toggle("on", b === btn));
+    const f = btn.dataset.filter;
+    document.querySelectorAll("[data-region]").forEach(el =>
+      el.classList.toggle("hidden", f !== "all" && el.dataset.region !== f));
+    document.querySelectorAll("section.region").forEach(s =>
+      s.classList.toggle("hidden", f !== "all" && s.id !== "r-" + f));
+  }));
+</script>
+</body>
+</html>
