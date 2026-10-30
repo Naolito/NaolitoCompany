@@ -80,7 +80,29 @@ No se ha podido enviar (`preparando` → `atencion`, le llega al equipo como «N
 
 ## El agente: Daniel Martin
 
-`agent/` envía el primer contacto y lee las respuestas desde dmartin@naolito.com, sin navegador ni sesión de Gmail: SMTP y IMAP con `AGENT_EMAIL` y `AGENT_EMAIL_APP_PASSWORD`, y la API con `CF_ACCESS_CLIENT_ID` y `CF_ACCESS_CLIENT_SECRET`. El prompt de la tarea Recurrent está en [AGENTE.md](AGENTE.md).
+`agent/` envía el primer contacto y lee las respuestas desde dmartin@naolito.com, sin navegador ni sesión de Gmail: SMTP (`smtp.gmail.com`) e IMAP (`imap.gmail.com`) con XOAUTH2, y la API con `CF_ACCESS_CLIENT_ID` y `CF_ACCESS_CLIENT_SECRET`. El prompt de la tarea Recurrent está en [AGENTE.md](AGENTE.md).
+
+### Gmail por OAuth
+
+Google no da contraseñas de aplicación a esta cuenta de Workspace, así que el correo entra con OAuth y el ámbito `https://mail.google.com/`. Variables de Environment:
+
+- `AGENT_EMAIL`: `dmartin@naolito.com`.
+- `GOOGLE_OAUTH_CLIENT_ID` y `GOOGLE_OAUTH_CLIENT_SECRET`: el cliente «Daniel Martin agent (dmartin Gmail)», de tipo Desktop, del proyecto de Google Cloud `naolito-agents` (organización naolito.com, pantalla de consentimiento Internal, Gmail API activada).
+- `AGENT_GMAIL_REFRESH_TOKEN`: lo da `oauth-login`. Con él, cada pasada pide a Google un access token, que dura una hora y sirve para SMTP e IMAP.
+
+`AGENT_EMAIL_APP_PASSWORD` ya no se usa: se puede borrar de Environment.
+
+El refresh token se saca una vez, en el PC de Nacho:
+
+```bash
+cd management && npm install
+npm run agent oauth-login                              # cliente desde Environment
+npm run agent oauth-login -- C:\ruta\client_secret.json  # o desde el JSON descargado de la consola
+```
+
+Sin ruta, busca el cliente en Environment y, si no está, un `client_secret*.json` dentro de `management/`, que Git ignora. Abre el navegador normal en la página de Google: entra como dmartin@naolito.com y pulsa «Permitir». La orden comprueba que la cuenta es dmartin y escribe el refresh token en la terminal, y en ningún otro sitio: va a Environment como `AGENT_GMAIL_REFRESH_TOKEN`, secreto, nunca a un chat ni al repositorio.
+
+Hay que repetirlo si alguien quita el acceso en myaccount.google.com/permissions, si se cambia la contraseña de la cuenta o si se borra el cliente. Entonces la pasada falla con «Google rechazó el token» y lo dice.
 
 ```bash
 npm run agent save-templates   # guarda seed/templates.json como borrador; no toca lo que alguien ya editó
@@ -92,6 +114,7 @@ npm run agent sent <id> <prueba>
 npm run agent stuck <id> <motivo>
 npm run agent replies          # paso 4: lee la bandeja y marca las respuestas
 npm run agent flag <id> <motivo>
+npm run agent oauth-login [client.json]   # una vez, en el PC de Nacho: da AGENT_GMAIL_REFRESH_TOKEN
 ```
 
 - `agent/forms.json` guarda lo visto en cada formulario el 30/10/2026. Si una agencia tiene `blocked`, pasa directamente a «Necesita a Nacho» con ese motivo.

@@ -3,3 +3,6 @@ node_modules/
 .dev.vars
 seed/seed.sql
 public/agencias.csv
+
+# OAuth client downloaded from Google Cloud: never in the repository.
+client_secret*.json

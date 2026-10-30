@@ -1,6 +1,6 @@
 import { ImapFlow } from 'imapflow';
 import { simpleParser } from 'mailparser';
-import { gmailAuth } from './mailer.mjs';
+import { gmailAuth } from './google-oauth.mjs';
 
 const headerText = (headers, name) => {
   const value = headers.get(name);
@@ -23,7 +23,7 @@ export async function parseMessage(uid, source) {
 }
 
 export async function openInbox() {
-  const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: gmailAuth(), logger: false });
+  const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: await gmailAuth(), logger: false });
   await client.connect();
   const lock = await client.getMailboxLock('INBOX');
   return {

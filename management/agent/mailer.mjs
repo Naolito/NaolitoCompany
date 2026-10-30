@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
-import { AGENT_NAME, DOSSIER, MAILBOX, requireEnv } from './config.mjs';
+import { AGENT_NAME, DOSSIER, MAILBOX } from './config.mjs';
+import { gmailAuth } from './google-oauth.mjs';
 
 export const messageIdFor = (agencyId) => `<first-contact.${agencyId}.${Date.now()}@naolito.com>`;
 
@@ -14,13 +15,15 @@ export function buildMessage({ to, subject, text, messageId, attachDossier = tru
   };
 }
 
-export function gmailAuth() {
-  const [user, pass] = requireEnv('AGENT_EMAIL', 'AGENT_EMAIL_APP_PASSWORD');
-  if (user !== MAILBOX) throw new Error(`AGENT_EMAIL debería ser ${MAILBOX}.`);
-  return { user, pass };
+// XOAUTH2 with an access token from the refresh token: see google-oauth.mjs.
+async function transport() {
+  const { user, accessToken } = await gmailAuth();
+  return nodemailer.createTransport({ host: 'smtp.gmail.com', port: 465, secure: true, auth: { type: 'OAuth2', user, accessToken } });
 }
 
 export function liveMailer() {
-  const transport = nodemailer.createTransport({ host: 'smtp.gmail.com', port: 465, secure: true, auth: gmailAuth() });
-  return { verify: () => transport.verify(), send: (message) => transport.sendMail(buildMessage(message)) };
+  return {
+    verify: async () => (await transport()).verify(),
+    send: async (message) => (await transport()).sendMail(buildMessage(message)),
+  };
 }

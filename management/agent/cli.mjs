@@ -6,6 +6,7 @@ import { MAILBOX, MANAGEMENT, NEVER_CONTACT, loadEnv } from './config.mjs';
 import { claimChecked, countWords, problemsWith } from './first-contact.mjs';
 import { openInbox } from './inbox.mjs';
 import { liveMailer } from './mailer.mjs';
+import { oauthLogin } from './oauth-login.mjs';
 import { readReplies } from './replies.mjs';
 import { sendQueue } from './send-queue.mjs';
 
@@ -84,6 +85,7 @@ const COMMANDS = {
   flag: (id, why) => liveApi().reply(id, 'atencion', why).then(print),
   replies,
   'test-email': testEmail,
+  'oauth-login': oauthLogin,
 };
 
 loadEnv();
