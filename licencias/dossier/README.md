@@ -19,13 +19,17 @@ python build.py --no-pdf   # solo HTML
 
 - Los textos y las cifras están en `src/content_en.json` y `src/content_es.json`.
 - El diseño de las páginas está en `src/template.html.j2` y `src/styles.css`.
-- El arte está en `src/img/web/` (naolito.com y la antigua tienda) y `src/img/products/` (maquetas de plataformas).
-- El script lista al final los huecos `[COMPLETAR: …]` / `[TO COMPLETE: …]` que quedan.
-- Cada PDF debe tener 12 páginas. Si sale alguna más, es que un texto se ha alargado y se ha desbordado a una página extra.
+- El arte está en `src/img/web/`, los logos en `src/img/logos/` y los fotogramas de *Homework* en `src/img/homework/`.
+- Las imágenes «Product concept» aún no están generadas: `src/concepts.json` tiene el lote para Animanager (GPT Image 2.5, calidad high) y el hueco que ocupa cada una.
+- Las tipografías Fredoka y Nunito están en `src/fonts/` y van incrustadas.
+- El script indica las palabras por idioma (objetivo: unas 500, sin la página de fuentes) y lista los huecos `[COMPLETAR: …]` / `[TO COMPLETE: …]`, que deben ser 0.
+- Cada PDF debe tener 11 páginas. Las páginas tienen altura fija: si un texto se alarga, se recorta sin añadir páginas, así que hay que revisarlas.
 
 ## Datos
 
-Todas las cifras públicas se consultaron el 30/10/2026 y están en la página «Fuentes» de cada dossier.
+Todas las cifras públicas se consultaron el 30/10/2026 y están en la página «Fuentes» de cada dossier. Las más de 50 tiendas, los libros con Lunwerg y los libros autopublicados son datos de Naolito del 30/10/2026.
+
+Los datos de Meta Business Suite (alcance, interacción, edad, género, países y peso de Latinoamérica) no están en el dossier: no hubo sesión de Meta. La audiencia usa solo las cifras públicas de los perfiles.
 
 ## Notas de la investigación (no van en el dossier)
 

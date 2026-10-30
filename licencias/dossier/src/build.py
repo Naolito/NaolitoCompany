@@ -7,7 +7,8 @@ Sources live next to this script:
   content_en.json / content_es.json   texts, figures and their sources
   template.html.j2                    page layout
   styles.css                          inlined into the HTML
-  img/                                artwork and product photos (embedded as data URIs)
+  fonts/                              Fredoka and Nunito (OFL), embedded so every reader sees them
+  img/                                art, logos and photos (embedded as data URIs)
 """
 import base64
 import io
@@ -25,13 +26,14 @@ from PIL import Image
 
 SRC = Path(__file__).resolve().parent
 OUT = SRC.parent
-MAX_SIDE = 1400
+MAX_SIDE = 2000
 OUTPUTS = {
     "en": "naolito-licensing-dossier-en",
     "es": "naolito-dossier-licencias-es",
 }
 GAP_RE = re.compile(r"\[(?:COMPLETAR|TO COMPLETE):[^\]]*\]")
 CHROME_CANDIDATES = [
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     r"C:\Program Files\Google\Chrome\Application\chrome.exe",
     r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
     "google-chrome",
@@ -48,6 +50,10 @@ def data_uri(rel_path):
     path = SRC / "img" / rel_path
     if not path.is_file():
         raise FileNotFoundError(f"Missing image: {path}")
+    if path.suffix == ".svg":
+        uri = f"data:image/svg+xml;base64,{base64.b64encode(path.read_bytes()).decode('ascii')}"
+        _image_cache[rel_path] = uri
+        return uri
     im = Image.open(path)
     im.load()
     has_alpha = im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info)
@@ -89,6 +95,29 @@ def collect_gaps(node, found):
     return found
 
 
+def font_faces():
+    """Embed the fonts so the HTML and PDF look the same on any computer."""
+    faces = []
+    for name in ("Fredoka", "Nunito"):
+        data = base64.b64encode((SRC / "fonts" / f"{name.lower()}.woff2").read_bytes()).decode("ascii")
+        faces.append(
+            f'@font-face {{ font-family: "{name}"; font-weight: 300 900; '
+            f'src: url(data:font/woff2;base64,{data}) format("woff2"); }}'
+        )
+    return "\n".join(faces)
+
+
+def visible_words(node, skip=("img", "hero", "logo", "disney", "url", "title_tag")):
+    """Count the words a reader sees, leaving out the sources page and the metadata."""
+    if isinstance(node, str):
+        return len(node.split())
+    if isinstance(node, list):
+        return sum(visible_words(v, skip) for v in node)
+    if isinstance(node, dict):
+        return sum(visible_words(v, skip) for k, v in node.items() if k not in skip)
+    return 0
+
+
 def find_chrome():
     for candidate in CHROME_CANDIDATES:
         if os.path.isfile(candidate) or shutil.which(candidate):
@@ -125,6 +154,8 @@ def build(lang, env, css, make_pdf):
         pdf_path = OUT / f"{OUTPUTS[lang]}.pdf"
         if print_pdf(html_path, pdf_path):
             print(f"  {pdf_path.name}  ({pdf_path.stat().st_size / 1e6:.1f} MB)")
+    words = visible_words({k: v for k, v in content.items() if k not in ("meta", "sources")})
+    print(f"  {words} words without the sources page")
     gaps = collect_gaps(content, [])
     return sorted(set(gaps), key=gaps.index)
 
@@ -140,7 +171,7 @@ def main():
     env.filters["gaps"] = mark_gaps
     env.filters["rich"] = rich
     env.globals["img"] = data_uri
-    css = (SRC / "styles.css").read_text(encoding="utf-8")
+    css = font_faces() + "\n" + (SRC / "styles.css").read_text(encoding="utf-8")
     for lang in OUTPUTS:
         print(f"[{lang}]")
         gaps = build(lang, env, css, make_pdf)

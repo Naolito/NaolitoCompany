@@ -1,0 +1,73 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "aspectRatio": "1:1",
+  "style": "Photorealistic commercial product photography, soft daylight, warm neutral background. Reproduce the wired Naolito characters exactly: same shapes, faces, line and colours. Do not invent other characters. No text, no logos, no brand names.",
+  "images": [
+    {
+      "file": "img/concepts/store-endcap.png",
+      "references": [
+        "web/tcsol-kindest-surprise-avocado-family.jpg",
+        "web/tcsol-broccoli.jpg",
+        "web/tcsol-family-portrait-sun-cloud-rainbow.jpg"
+      ],
+      "prompt": "A tall retail endcap display in a European gift and design store, fully stocked with plush toys, mugs, notebooks and T-shirts of these characters.",
+      "slot": "retail.img"
+    },
+    {
+      "file": "img/concepts/gift-shop-table.png",
+      "references": [
+        "web/tcsol-sushi-is-love.jpg",
+        "web/tcsol-trex-asteroid-paper-scissors.jpg",
+        "web/naolito-before-after-coffee-sloth.webp"
+      ],
+      "prompt": "A wooden display table in an independent gift shop, styled with mugs, sticker sheets, tote bags and small plush toys of these characters.",
+      "slot": "partner.img"
+    },
+    {
+      "file": "img/concepts/plush-avocado-family.png",
+      "references": [
+        "web/tcsol-kindest-surprise-avocado-family.jpg"
+      ],
+      "prompt": "Three soft plush toys of this avocado family, parents and baby pit, sitting together on a light sofa.",
+      "slot": "products.gallery"
+    },
+    {
+      "file": "img/concepts/apparel-sloth-hoodie.png",
+      "references": [
+        "web/naolito-before-after-coffee-sloth.webp"
+      ],
+      "prompt": "A cream hoodie and folded kids' pyjamas printed with this sloth artwork, laid out neatly on a pale surface.",
+      "slot": "products.gallery"
+    },
+    {
+      "file": "img/concepts/stationery-sky-family.png",
+      "references": [
+        "web/tcsol-family-portrait-sun-cloud-rainbow.jpg"
+      ],
+      "prompt": "A back-to-school set with these sky characters: hardcover notebook, pencil case and sticker sheet on a pastel desk.",
+      "slot": "products.gallery"
+    },
+    {
+      "file": "img/concepts/kitchen-sushi-lunch.png",
+      "references": [
+        "web/tcsol-sushi-is-love.jpg"
+      ],
+      "prompt": "A ceramic mug, a bento lunch box and a water bottle decorated with these sushi characters on a bright kitchen counter.",
+      "slot": "products.gallery"
+    },
+    {
+      "file": "img/concepts/home-cushions-broccoli.png",
+      "references": [
+        "web/tcsol-broccoli.jpg"
+      ],
+      "prompt": "Two round cushions and a soft throw blanket featuring this broccoli character on a cosy armchair.",
+      "slot": "products.gallery"
+    }
+  ],
+  "caption": {
+    "en": "Product concept",
+    "es": "Concepto de producto"
+  },
+  "note": "Not generated yet. On generating: point each slot at its file with this caption, keep the 3 real photos (book cover, both Nesquik mugs) in products.gallery, and add the sources note saying these are generated, not existing products."
+}
