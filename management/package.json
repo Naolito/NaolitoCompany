@@ -1,0 +1,16 @@
+{
+  "name": "naolito-management",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed:build": "node scripts/build-seed.mjs",
+    "test": "node --test test/*.test.mjs",
+    "db:migrate": "wrangler d1 migrations apply naolito-management --remote",
+    "db:seed": "npm run seed:build && wrangler d1 execute naolito-management --remote --file seed/seed.sql",
+    "deploy": "npm run seed:build && wrangler pages deploy public --project-name naolito-management --branch main",
+    "access:aud": "node scripts/set-access-aud.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.0"
+  }
+}

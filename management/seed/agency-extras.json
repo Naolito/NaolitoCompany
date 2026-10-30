@@ -1,0 +1,22 @@
+{
+  "we-love-licensing": {"via": "email", "vias": ["email"], "greeting": "Luisa y Valeria", "reference": "MIKECRACK", "lang": "es"},
+  "maximum-licensing": {"via": "email", "vias": ["email"], "greeting": "Sarah", "reference": "Vexx", "lang": "en"},
+  "dimensional-branding": {"via": "form", "vias": ["form"], "greeting": "Andrew and Claire", "reference": "Sad Nuggie and Abi Toads", "lang": "en"},
+  "brand-new-day": {"via": "pending", "vias": ["pending"], "greeting": "Yolanda", "reference": "Mostropi y Vania Bachur", "lang": "es"},
+  "home-made-licensing": {"via": "form", "vias": ["form", "email"], "greeting": "Aline", "reference": "Pembe the Pink Cat and Monsieur Bear", "lang": "en"},
+  "caravanserai": {"via": "email", "vias": ["email"], "greeting": "Guillem", "reference": "Molang y Miffy", "lang": "es"},
+  "rocket-licensing": {"via": "email", "vias": ["email"], "greeting": "Rob and Charlie", "reference": "Fuzzballs and Miffy", "lang": "en"},
+  "start-licensing": {"via": "pending", "vias": ["pending"], "greeting": "Ian", "reference": "Bouffants and Broken Hearts", "lang": "en"},
+  "kaufman-licensing": {"via": "pending", "vias": ["pending"], "greeting": "Sid", "reference": "Little Corgi Cuties", "lang": "en"},
+  "el-ocho": {"via": "email", "vias": ["email"], "greeting": "", "reference": "Pembe the Pink Cat", "lang": "es"},
+  "active-merchandising": {"via": "email", "vias": ["email"], "greeting": "Anita", "reference": "Molang and Catsline", "lang": "en"},
+  "haven-global": {"via": "form", "vias": ["form"], "greeting": "Tom", "reference": "Pusheen", "lang": "en"},
+  "byfrog": {"via": "email", "vias": ["email"], "greeting": "Rodrigo", "reference": "B.Duck and tokidoki", "lang": "en"},
+  "surge-licensing": {"via": "form", "vias": ["form", "email"], "greeting": "Elan", "reference": "WEBTOON", "lang": "en"},
+  "jewel-branding": {"via": "email", "vias": ["email"], "greeting": "Katie", "reference": "Rongrong DeVoe and EttaVee", "lang": "en"},
+  "nuevo-mundo": {"via": "form", "vias": ["form"], "greeting": "Ana", "reference": "Mostropi y tokidoki", "lang": "es"},
+  "rb-licensing": {"via": "form", "vias": ["form", "email"], "greeting": "Maria", "reference": "Anne Stokes y Frida Kahlo", "lang": "es"},
+  "starbright": {"via": "email", "vias": ["email"], "greeting": "Giada", "reference": "Chiikawa and Mofusand", "lang": "en"},
+  "fluid-world": {"via": "email", "vias": ["email"], "greeting": "Claire and Hanna", "reference": "Pusheen", "lang": "en"},
+  "maximum-orbit": {"via": "third", "vias": ["third"], "greeting": "", "reference": "Sarah's Scribbles", "lang": "en"}
+}
