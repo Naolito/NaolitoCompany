@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Naolito: The Cute Side of Life · Dossier de licencias",
+    "footer": "Naolito · The Cute Side of Life · Dossier de licencias",
+    "date": "Dossier de licencias · Cifras públicas consultadas el 30 de octubre de 2026"
+  },
+  "cover": {
+    "logo": "web/naolito-logo-nacho-tcsol.jpg",
+    "kicker": "Dossier de licencias 2026",
+    "title": "The Cute Side of Life",
+    "lead": "Personajes e ilustraciones originales de **Naolito**, estudio de animación e ilustración 2D de Málaga. Nacieron en redes, ya se venden en todo el mundo y buscan agencia de licencias.",
+    "badges": ["≈1,2 M de seguidores", "14+ plataformas de venta", "Desde 2009"],
+    "art": [
+      "web/tcsol-kindest-surprise-avocado-family.jpg",
+      "web/tcsol-family-portrait-sun-cloud-rainbow.jpg",
+      "web/tcsol-trex-asteroid-paper-scissors.jpg",
+      "web/tcsol-broccoli.jpg",
+      "web/tcsol-sushi-is-love.jpg",
+      "web/tcsol-hot-outside.jpg"
+    ]
+  },
+  "about": {
+    "kicker": "01 · Quiénes somos",
+    "title": "Un estudio pequeño con una gran audiencia propia",
+    "paragraphs": [
+      "Naolito es un estudio de animación e ilustración 2D con sede en Málaga, creado por el ilustrador, animador y cineasta **Nacho Arjona**. Desde 2009 construye **The Cute Side of Life** (*El lado adorable de la vida*), un universo de comida, animales, planetas y objetos cotidianos que viven momentos pequeños con los que todos nos identificamos.",
+      "Primero llegó la audiencia. Alrededor de 1,2 millones de personas siguen a Naolito en redes, y sus diseños se han vendido de forma orgánica en más de 14 plataformas de todo el mundo y en tiendas independientes de España, Bélgica, Francia e Italia.",
+      "No somos una megamarca global ni pretendemos parecerlo. Somos un estudio pequeño con una audiencia orgánica demostrada, un catálogo amplio de arte terminado y un equipo de animación propio. Buscamos una agencia que convierta esa demanda en programas de licencias estructurados."
+    ],
+    "stats": [
+      {"value": "2009", "label": "Primeros diseños de Naolito (concurso de Pampling)"},
+      {"value": "≈1,2 M", "label": "Seguidores sumando todas las redes (bruto)"},
+      {"value": "14+", "label": "Plataformas donde se han vendido los diseños"}
+    ],
+    "facts_title": "Datos clave",
+    "facts": [
+      {"label": "Fundador", "value": "Nacho Arjona (Nacho Díaz Arjona): ilustrador, animador y cineasta"},
+      {"label": "Estudio", "value": "Naolito Animation Studios, constituido en Málaga en 2022 (Polo de Contenidos Digitales)"},
+      {"label": "Equipo", "value": "[COMPLETAR: tamaño y roles del equipo actual]"},
+      {"label": "Qué hacemos", "value": "Animación 2D y 3D, ilustración, catálogo de arte disponible para licencias y diseño de personajes a medida"},
+      {"label": "Trabajo para marcas", "value": "Netflix, Amazon, PlayStation, Nestlé (Nesquik), Pilot, San Miguel y Peak, entre otras"},
+      {"label": "Cine", "value": "Corto *Homework*: Biznaga de Plata al mejor cortometraje de animación del Festival de Málaga 2024; licenciado a Disney+ en 2026, y Naolito conserva la propiedad"},
+      {"label": "Libro", "value": "*El lado adorable de la vida*, Lunwerg / Editorial Planeta, 2021"},
+      {"label": "Prensa", "value": "Bored Panda, Design You Trust, blog de Displate, Canal Sur (TV y radio), Audiovisual451"}
+    ],
+    "source": "Fuentes: naolito.com/about y la página de inicio; Festival de Málaga (X, 2024); Canal Sur (enero y febrero de 2026); planetadelibros.com. Todas consultadas el 30/10/2026. Lista completa en la última página."
+  },
+  "characters": {
+    "kicker": "02 · Personajes",
+    "title": "Los personajes de The Cute Side of Life",
+    "lead": "Un elenco recurrente de comida, animales y planetas: formas sencillas, ojos grandes y una emoción clara por personaje. Se leen bien a cualquier tamaño, desde un pin hasta una funda nórdica.",
+    "items": [
+      {"name": "La familia Aguacate", "img": "web/tcsol-kindest-surprise-avocado-family.jpg", "desc": "Padres y su bebé hueso. *Kindest Surprise* es el diseño más conocido de Naolito, y la familia tiene su propia historia (babycado, aguacate cansado)."},
+      {"name": "Brócoli", "img": "web/tcsol-broccoli.jpg", "desc": "La verdura solitaria que no le gusta a nadie. Es uno de los personajes más famosos de Naolito y protagoniza el corto *Nobody likes me!* (5,5 M de visualizaciones en TikTok)."},
+      {"name": "Sol, Nube y bebé Arcoíris", "img": "web/tcsol-family-portrait-sun-cloud-rainbow.jpg", "desc": "Una tierna familia del cielo, ideal para productos de bebé, familia y el Día de la Madre o del Padre."},
+      {"name": "T-Rex", "img": "web/tcsol-trex-asteroid-paper-scissors.jpg", "desc": "El dinosaurio que nunca acaba de ganar. *Asteroid, Paper, Scissors* es uno de los clásicos de la serie."},
+      {"name": "La pandilla Sushi", "img": "web/tcsol-sushi-is-love.jpg", "desc": "Salmón, tofu y nigiris en historias de amor y hazañas deportivas (*Sushi is Love*, *Sushi Olympics*)."},
+      {"name": "Blue, la Tierra", "img": "web/tcsol-earth-photo-booth.jpg", "desc": "Un planeta curioso que explora el mundo. Con Saturno, el Sol y la Luna, ya aparece en 2D y en cortos 3D."},
+      {"name": "Antes y Después", "img": "web/naolito-before-after-coffee-sloth.webp", "desc": "Una serie de personajes antes y después del café, el gimnasio o la ducha. Se vende en pegatinas, sudaderas y láminas, y es la base de las tazas de Nesquik."},
+      {"name": "Wallet", "img": "web/naolito-short-wallet.jpg", "desc": "Una cartera responsable, preocupada por el futuro y otras cosas de adultos. Personaje de Naolito Originals, animado en 3D."}
+    ],
+    "note": "Los nombres de los personajes son descriptivos: la serie no tiene un elenco oficial. [COMPLETAR: nombres oficiales y biografías breves de los personajes, si los definimos para la guía de estilo]"
+  },
+  "universe": {
+    "kicker": "03 · El universo",
+    "title": "Un catálogo de cientos de diseños terminados",
+    "lead": "The Cute Side of Life reúne más de 12 años de ilustraciones sobre la vida cotidiana: los lunes, el café, el gimnasio, el calor del verano, la familia y el amor. Casi todas funcionan con poco texto o sin texto. Todo es arte original de Naolito, propiedad del estudio y listo para adaptarse.",
+    "cols": 6,
+    "gallery": [
+      {"img": "web/tcsol-avocalien.jpg", "caption": "Avocalien"},
+      {"img": "web/tcsol-babycado-avocado-couple.jpg", "caption": "Babycado"},
+      {"img": "web/tcsol-tired-avocado.jpg", "caption": "Aguacate cansado"},
+      {"img": "web/tcsol-crunches.jpg", "caption": "Abdominales"},
+      {"img": "web/tcsol-hot-outside.jpg", "caption": "¿Hace calor fuera?"},
+      {"img": "web/tcsol-cloud-battery.jpg", "caption": "Nube sin batería"},
+      {"img": "web/tcsol-monday-coffee.jpg", "caption": "Lunes"},
+      {"img": "web/tcsol-shitty-time.jpg", "caption": "Shitty time"},
+      {"img": "web/tcsol-spacial-love.jpg", "caption": "Amor espacial"},
+      {"img": "web/tcsol-fire-stunt-cover.jpg", "caption": "Fire stunt"},
+      {"img": "web/naolito-short-blue-dot-earth.jpg", "caption": "Blue (corto 3D)"},
+      {"img": "web/naolito-short-broccoli-nobody-loves-me.jpg", "caption": "Brócoli (corto animado)"}
+    ],
+    "themes": ["Comida con sentimientos", "Animales", "Planetas y clima", "Lunes y café", "Deporte y autocuidado", "Familia y bebés", "Amor", "Verano", "Antes y Después", "Animación 2D y 3D"]
+  },
+  "audience": {
+    "kicker": "04 · Audiencia",
+    "title": "Alrededor de 1,2 millones de seguidores, de forma orgánica",
+    "lead": "Cifras públicas tal como aparecían en cada perfil el 30 de octubre de 2026. El crecimiento ha llegado con ilustraciones y animaciones cortas que la gente comparte.",
+    "highlights": [
+      {"value": "≈1,2 M", "label": "Seguidores sumando todas las redes (bruto, sin deduplicar)"},
+      {"value": "483 K", "label": "Seguidores en Instagram (@naolito)"},
+      {"value": "3,5 M", "label": "Me gusta en TikTok (@naolitok)"},
+      {"value": "11 M", "label": "Visualizaciones de nuestro vídeo más visto en TikTok (Solar Eclipse)"}
+    ],
+    "columns": ["Red", "Cuenta", "Seguidores", "Otras métricas públicas", "Fuente"],
+    "rows": [
+      {"network": "Instagram", "account": "@naolito", "value": "483 K", "metric": "Perfil público, vista sin sesión iniciada", "source": "instagram.com/naolito"},
+      {"network": "Facebook", "account": "Naolito", "value": "364 K", "metric": "363.989 seguidores", "source": "Plugin público de página de Facebook"},
+      {"network": "TikTok", "account": "@naolitok", "value": "258,1 K", "metric": "3,5 M de me gusta · 53 vídeos · vídeos top de 11 M, 5,5 M, 2,8 M y 2,3 M de visualizaciones", "source": "tiktok.com/@naolitok"},
+      {"network": "Threads", "account": "@naolito", "value": "80,4 K", "metric": "13 publicaciones", "source": "threads.com/@naolito"},
+      {"network": "DeviantArt", "account": "naolito", "value": "14,7 K", "metric": "573,7 K visitas · 359 obras", "source": "deviantart.com/naolito"},
+      {"network": "Threadless", "account": "@Naolito", "value": "10.000", "metric": "Tal como aparece (puede ser un tope) · 266 diseños enviados", "source": "profile.threadless.com/@Naolito"},
+      {"network": "X", "account": "@Naolito", "value": "4,9 K", "metric": "4.879 seguidores · 1.727 publicaciones", "source": "x.com/Naolito (vía espejo fxtwitter)"},
+      {"network": "YouTube", "account": "@Naolito", "value": "3,75 K", "metric": "176.869 visualizaciones totales · 35 vídeos", "source": "youtube.com/@naolito/about"},
+      {"network": "Redbubble", "account": "Naolito", "value": "2.622", "metric": "21.184 favoritos recibidos", "source": "redbubble.com/people/Naolito"},
+      {"network": "LinkedIn", "account": "Naolito Animation Studios", "value": "1.875", "metric": "Página de empresa", "source": "linkedin.com/company/naolito-animation-studios"},
+      {"network": "Pinterest", "account": "naolito", "value": "684", "metric": "75 pines · 7 tableros", "source": "pinterest.com/naolito"}
+    ],
+    "note": "El alcance, las impresiones y los datos demográficos no son públicos. [COMPLETAR: alcance mensual medio y tasa de interacción por red] [COMPLETAR: edad, género y países principales de la audiencia según las estadísticas de Instagram, TikTok y Facebook]"
+  },
+  "sold": {
+    "kicker": "05 · Trayectoria",
+    "title": "Lo que ya hemos vendido, y dónde",
+    "lead": "Desde 2009, en plataformas de impresión bajo demanda, tienda propia, comercios independientes y acuerdos con marcas, sin agente ni equipo mayorista.",
+    "columns": ["Plataforma / socio", "Productos", "Cifras públicas"],
+    "platforms": [
+      {"name": "Redbubble", "products": "Camisetas, sudaderas, pegatinas, láminas, tazas, fundas, cuadernos, bolsas, cojines", "metric": "156 diseños · 2.622 seguidores · 21.184 favoritos"},
+      {"name": "Threadless", "products": "Ropa y tienda de artista", "metric": "266 diseños enviados · miembro desde 2009"},
+      {"name": "TeePublic", "products": "Camisetas, sudaderas, ropa infantil, tazas, pegatinas, pósteres", "metric": "196 diseños"},
+      {"name": "Displate", "products": "Pósteres metálicos", "metric": "122 obras · creador verificado"},
+      {"name": "iCanvas", "products": "Lienzos y arte de pared", "metric": "46 productos"},
+      {"name": "Dashery (merch oficial)", "products": "Camisetas, pegatinas", "metric": "Unas 6 páginas de productos"},
+      {"name": "Pampling, NeatoShop, OtherTees", "products": "Camisetas", "metric": "Citadas por Naolito entre sus más de 14 plataformas"},
+      {"name": "Threadheads (Australia / UE)", "products": "Camiseta infantil (Fire Stunt)", "metric": "1 producto"},
+      {"name": "DesignPlace (España)", "products": "Láminas, posavasos, tazas", "metric": "10 tiendas físicas de diseño (Barcelona y Palma)"},
+      {"name": "Tienda naolito.com (2014-2019)", "products": "Camisetas, pins esmaltados, fundas de móvil", "metric": "Tienda propia de venta directa, hoy cerrada"}
+    ],
+    "boxes": [
+      {"title": "Tiendas físicas en Europa", "items": [
+        "Puntos de venta citados por Naolito: Barcelona, Granada, Vigo y Jerez (España), Roma (Italia), Carpentras (Francia) y Huy (Bélgica)",
+        "Hoy: diseños originales en DesignPlace (10 tiendas de diseño en Barcelona y Palma)",
+        "[COMPLETAR: puntos de venta y cuentas mayoristas actuales]"
+      ]},
+      {"title": "Precedentes de licencia y edición", "items": [
+        "**Nesquik (Nestlé), verano de 2020**: tazas «Antes y Después» de regalo para clientes en España",
+        "**Lunwerg / Editorial Planeta, 2021**: el libro *El lado adorable de la vida*, 112 págs., ISBN 978-84-18260-35-3",
+        "**Disney+, 2026**: licencia del corto de animación *Homework*; Naolito conserva la propiedad",
+        "[COMPLETAR: ventas 2025, en unidades e ingresos por plataforma]"
+      ]}
+    ],
+    "note": "Cifras públicas de cada plataforma consultadas el 30/10/2026. Las plataformas de impresión bajo demanda no publican unidades vendidas. Lista de tiendas: naolito.com/about y la versión archivada de naolito.com/pages/our-stores."
+  },
+  "products": {
+    "kicker": "06 · Producto",
+    "title": "Nuestros personajes en productos reales",
+    "lead": "Fotos de producto real (el libro y las tazas de Nesquik) y diseños que hoy están a la venta en nuestras plataformas.",
+    "cols": 5,
+    "gallery": [
+      {"img": "web/tcsol-book-cover-marshmallows.jpg", "caption": "Libro · Lunwerg / Planeta (foto)"},
+      {"img": "web/product-nesquik-mugs-featured.jpg", "caption": "Tazas Nesquik, 2020 (foto)"},
+      {"img": "web/product-nesquik-mugs-avocado-gym.jpg", "caption": "Tazas Nesquik, aguacate (foto)"},
+      {"img": "products/redbubble-mug-asteroid-paper-scissors.jpg", "caption": "Taza · Redbubble"},
+      {"img": "products/redbubble-tshirt-charging-batteries.jpg", "caption": "Camiseta · Redbubble"},
+      {"img": "products/redbubble-sweatshirt-before-after-coffee.jpg", "caption": "Sudadera · Redbubble"},
+      {"img": "products/redbubble-notebook-hardcover-journal-kindest-surprise.jpg", "caption": "Cuaderno · Redbubble"},
+      {"img": "products/redbubble-tote-bag-kindest-surprise.jpg", "caption": "Bolsa tote · Redbubble"},
+      {"img": "products/redbubble-sticker-before-after-makeup.jpg", "caption": "Pegatinas · Redbubble"},
+      {"img": "products/icanvas-canvas-print-fire-stunt.jpg", "caption": "Lienzo · iCanvas"}
+    ],
+    "note": "Las imágenes de plataforma son las maquetas de producto de cada plataforma. [COMPLETAR: fotos propias de producto físico y de expositores en tienda]"
+  },
+  "markets": {
+    "kicker": "07 · Público y mercados",
+    "title": "Quién compra Naolito, y dónde",
+    "lead": "Un humor que no necesita traducción: los personajes funcionan sin texto, y los pocos textos breves ya existen en inglés y en español.",
+    "cards": [
+      {"title": "Para quién", "paragraphs": [
+        "Nuestra lectura (aún sin medir): adultos y jóvenes que comparten humor cotidiano en redes, gente que busca un regalo, amantes de la comida y los animales, y familias a las que les gustan las familias Aguacate y Arcoíris."
+      ], "items": [
+        "Compra para uno mismo: camisetas, pegatinas, tazas y láminas",
+        "Regalo: cumpleaños, Día de la Madre y del Padre, amigo invisible",
+        "Infantil y familia: personajes suaves y positivos",
+        "[COMPLETAR: edad, género y país según estadísticas y ventas]"
+      ]},
+      {"title": "Dónde vendemos", "items": [
+        "**España y Latinoamérica**: nuestro mercado de origen, con un libro en español de Planeta y presencia en prensa y televisión españolas. Latinoamérica es accesible con contenido en español. [COMPLETAR: porcentaje de audiencia en Latinoamérica]",
+        "**Europa**: tiendas en España, Italia, Francia y Bélgica, DesignPlace hoy y plataformas europeas como Displate",
+        "**Estados Unidos**: redes en inglés y plataformas estadounidenses como Threadless y TeePublic. [COMPLETAR: porcentaje de ventas en EE. UU.]"
+      ]},
+      {"title": "Por qué viaja bien", "items": [
+        "Chistes visuales con poco texto o sin texto",
+        "Temas universales: comida, animales, clima, planetas",
+        "Humor atemporal que no depende de modas",
+        "Ganchos de temporada: lunes, calor, vuelta al gimnasio, días de la familia",
+        "Nativo de redes: cada lanzamiento puede llevar su animación"
+      ]}
+    ]
+  },
+  "categories": {
+    "kicker": "08 · Oportunidades",
+    "title": "Categorías de producto en las que vemos potencial",
+    "lead": "Basadas en lo que ya vendemos en plataformas y con socios, y en los siguientes pasos que encajan con los personajes.",
+    "items": [
+      {"name": "Ropa y pijamas", "why": "La camiseta es nuestro producto más vendido en todas las plataformas (73 de las 120 fichas de nuestra tienda de Redbubble). Siguiente paso: pijamas, ropa infantil, calcetines y ropa de estar en casa."},
+      {"name": "Arte de pared y decoración", "why": "122 pósteres metálicos en Displate, 46 lienzos en iCanvas y láminas en DesignPlace. También cojines, mantas y tapices."},
+      {"name": "Tazas, menaje y cocina", "why": "La colección de tazas de Nesquik, y tazas y posavasos que se venden bien. Los personajes de comida encajan en cocina, fiambreras y botellas."},
+      {"name": "Papelería y vuelta al cole", "why": "Ya vendemos cuadernos en plataformas y hemos trabajado para Pilot. También agendas, estuches y calendarios."},
+      {"name": "Pegatinas, pins y pequeño regalo", "why": "Las pegatinas y los pins esmaltados se venden de forma constante. Son formatos de compra por impulso para tiendas de diseño y regalo."},
+      {"name": "Peluches y coleccionables", "why": "Personajes sencillos y redondos con una emoción clara. Aún no se han fabricado: es el siguiente paso natural para socios de juguete."},
+      {"name": "Tarjetas y papel de regalo", "why": "Chistes de familia, amor y temporada (Día de la Madre, San Valentín, cumpleaños)."},
+      {"name": "Edición", "why": "Nuestro primer libro salió con Lunwerg / Planeta en 2021. Siguiente paso: álbumes ilustrados, libros de actividades y libros de regalo."},
+      {"name": "Promociones y alimentación", "why": "Nesquik demostró que encaja: personajes de comida para packaging, regalo por compra y campañas en tienda, con animación hecha por nuestro propio estudio."}
+    ]
+  },
+  "agency": {
+    "kicker": "09 · La colaboración",
+    "title": "Qué buscamos de una agencia",
+    "lead": "Una agencia de licencias mediana o boutique que construya un programa activo para The Cute Side of Life, con objetivos claros desde el principio.",
+    "blocks": [
+      {"title": "Territorios", "items": [
+        "**España y Latinoamérica**",
+        "**Europa**",
+        "**Estados Unidos**",
+        "Podemos trabajar con una agencia para varios territorios o con agentes distintos por territorio. La exclusividad por territorio y categoría se acordará."
+      ]},
+      {"title": "Categorías", "items": [
+        "Prioridad: ropa, arte de pared y decoración, tazas y regalo, papelería y vuelta al cole",
+        "Crecimiento: juguete y peluche, edición y tarjetas, promociones de alimentación y bebidas",
+        "Los derechos digitales y de animación siguen siendo de Naolito salvo que se acuerde otra cosa"
+      ]},
+      {"title": "Duración y mínimos de resultados", "items": [
+        "Duración inicial de **2 o 3 años**",
+        "Objetivos mínimos anuales: [COMPLETAR: número mínimo de licenciatarios firmados] y [COMPLETAR: ingresos mínimos garantizados por royalties]",
+        "Revisión a los 12 meses, con derecho a terminar el acuerdo o reducir su alcance si no se cumplen los mínimos",
+        "Informe trimestral de oportunidades en curso, acuerdos firmados y royalties"
+      ]},
+      {"title": "Qué aportamos", "items": [
+        "Cientos de diseños terminados: 266 en Threadless, 156 en Redbubble y 122 en Displate",
+        "Un estudio propio para arte nuevo, adaptaciones y animaciones de lanzamiento",
+        "Alrededor de 1,2 M de seguidores para apoyar los lanzamientos de los licenciatarios",
+        "Guía de estilo y paquete de recursos: [COMPLETAR: estado y fecha de entrega]"
+      ]}
+    ]
+  },
+  "contact": {
+    "kicker": "10 · Contacto",
+    "title": "Llevemos The Cute Side of Life a más estanterías",
+    "lead": "Nos encantará saber cómo podría representar tu agencia a Naolito.",
+    "rows": [
+      {"label": "Contacto", "value": "Nacho Arjona, fundador [COMPLETAR: confirmar la persona de contacto para licencias]"},
+      {"label": "Email", "value": "contact@naolito.com"},
+      {"label": "Teléfono", "value": "+34 601 259 578"},
+      {"label": "Estudio", "value": "Sor Teresa Prat 15, 29003 Málaga, España"},
+      {"label": "Web", "value": "naolito.com"},
+      {"label": "Redes", "value": "Instagram @naolito · TikTok @naolitok · Facebook /naolito · YouTube @Naolito"}
+    ]
+  },
+  "sources": {
+    "kicker": "Anexo",
+    "title": "Fuentes",
+    "lead": "Cada cifra pública del dossier, con su fuente. Todas consultadas el 30 de octubre de 2026.",
+    "items": [
+      {"label": "Naolito, inicio (clientes, seguidores)", "url": "https://naolito.com/", "date": "30/10/2026"},
+      {"label": "Naolito, About (historia, más de 14 plataformas, tiendas, premios)", "url": "https://naolito.com/about", "date": "30/10/2026"},
+      {"label": "Naolito, FAQ del estudio (catálogo disponible para licencias)", "url": "https://naolito.com/2d-animation-illustration-studio", "date": "30/10/2026"},
+      {"label": "Naolito, marcas de juguete (tiendas en España, Bélgica, Francia e Italia)", "url": "https://naolito.com/animation-studio-for-toy-brands", "date": "30/10/2026"},
+      {"label": "Naolito, serie The Cute Side of Life", "url": "https://naolito.com/portfolio/the-cute-side-of-life", "date": "30/10/2026"},
+      {"label": "Naolito, libro The Cute Side of Life", "url": "https://naolito.com/portfolio/the-cute-side-of-life-book", "date": "30/10/2026"},
+      {"label": "Naolito, caso de las tazas Nesquik", "url": "https://naolito.com/portfolio/nestle-nesquik-mugs", "date": "30/10/2026"},
+      {"label": "Naolito, cortos (Blue, Wallet)", "url": "https://naolito.com/portfolio/naolito-shorts", "date": "30/10/2026"},
+      {"label": "Naolito, contacto", "url": "https://naolito.com/contact", "date": "30/10/2026"},
+      {"label": "Naolito, antiguos puntos de venta (Wayback Machine)", "url": "https://web.archive.org/web/2025/https://naolito.com/pages/our-stores", "date": "30/10/2026"},
+      {"label": "Instagram @naolito", "url": "https://www.instagram.com/naolito/", "date": "30/10/2026"},
+      {"label": "TikTok @naolitok", "url": "https://www.tiktok.com/@naolitok", "date": "30/10/2026"},
+      {"label": "Facebook Naolito (plugin público de página)", "url": "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnaolito", "date": "30/10/2026"},
+      {"label": "Threads @naolito", "url": "https://www.threads.com/@naolito", "date": "30/10/2026"},
+      {"label": "YouTube @Naolito", "url": "https://www.youtube.com/@naolito/about", "date": "30/10/2026"},
+      {"label": "X @Naolito (vía espejo fxtwitter)", "url": "https://api.fxtwitter.com/Naolito", "date": "30/10/2026"},
+      {"label": "DeviantArt naolito", "url": "https://www.deviantart.com/naolito/about", "date": "30/10/2026"},
+      {"label": "LinkedIn Naolito Animation Studios", "url": "https://www.linkedin.com/company/naolito-animation-studios", "date": "30/10/2026"},
+      {"label": "Pinterest naolito", "url": "https://www.pinterest.com/naolito/", "date": "30/10/2026"},
+      {"label": "Redbubble Naolito", "url": "https://www.redbubble.com/people/Naolito/shop", "date": "30/10/2026"},
+      {"label": "Threadless @Naolito", "url": "https://profile.threadless.com/@Naolito", "date": "30/10/2026"},
+      {"label": "TeePublic Naolito", "url": "https://www.teepublic.com/stores/naolito-ap", "date": "30/10/2026"},
+      {"label": "Displate Naolito", "url": "https://displate.com/artist/naolito", "date": "30/10/2026"},
+      {"label": "iCanvas Naolito", "url": "https://www.icanvas.com/canvas-art-prints/artist/naolito", "date": "30/10/2026"},
+      {"label": "Dashery, merch oficial", "url": "https://naolito.dashery.com/", "date": "30/10/2026"},
+      {"label": "NeatoShop Naolito", "url": "https://www.neatoshop.com/artist/Naolito", "date": "30/10/2026"},
+      {"label": "OtherTees Naolito", "url": "https://www.othertees.com/naolito", "date": "30/10/2026"},
+      {"label": "Threadheads, colección Naolito", "url": "https://threadheads.com/en-eu/collections/naolito", "date": "30/10/2026"},
+      {"label": "DesignPlace, tiendas", "url": "https://designplace.es/pages/todas-las-tiendas", "date": "30/10/2026"},
+      {"label": "Planeta, El lado adorable de la vida", "url": "https://www.planetadelibros.com/libro-el-lado-adorable-de-la-vida/324505", "date": "30/10/2026"},
+      {"label": "Festival de Málaga, Biznaga de Plata 2024 (X)", "url": "https://x.com/festivalmalaga/status/1766423245622817163", "date": "30/10/2026"},
+      {"label": "Canal Sur Radio, Homework y Disney+ (21/01/2026)", "url": "https://www.canalsur.es/radio/corto-estudio-animacion-andaluz-naolito_1_1364170.html", "date": "30/10/2026"},
+      {"label": "Canal Sur TV, «el fenómeno Naolito» (17/02/2026)", "url": "https://www.canalsur.es/rtva/comunicacion/cine-analiza-actualidad-audiovisual-andaluza_1_1383988.html", "date": "30/10/2026"},
+      {"label": "Audiovisual451, Homework y los Goya (04/12/2024)", "url": "https://www.audiovisual451.com/homework-de-nacho-arjona-aspira-al-goya-por-mejor-corto-de-animacion-con-una-historia-entranable-para-toda-la-familia/", "date": "30/10/2026"},
+      {"label": "Bored Panda, ilustraciones de Naolito (2017)", "url": "https://www.boredpanda.com/funny-illustrations-people-like-objects-naolito/", "date": "30/10/2026"},
+      {"label": "Blog de Displate, entrevista (2020)", "url": "https://blog.displate.com/on-the-spot-naolito/", "date": "30/10/2026"}
+    ]
+  }
+}

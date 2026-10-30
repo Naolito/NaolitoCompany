@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ c.meta.title }}</title>
+<style>{{ css }}</style>
+</head>
+<body>
+{% set n = namespace(page=0) %}
+{% macro folio() %}{% set n.page = n.page + 1 %}<div class="folio folio-left">{{ c.meta.footer }}</div><div class="folio">{{ n.page }}</div>{% endmacro %}
+{% macro head(s) %}
+  <div class="kicker">{{ s.kicker }}</div>
+  <h2>{{ s.title }}</h2>
+  {% if s.lead %}<p class="lead">{{ s.lead|rich }}</p>{% endif %}
+{% endmacro %}
+
+{# 1. Cover #}
+<section class="page cover">
+  <div class="blob" style="width:120mm;height:120mm;left:-40mm;bottom:-50mm;background:var(--pink-soft)"></div>
+  {% if c.cover.logo %}<img class="logo" src="{{ img(c.cover.logo) }}" alt="Naolito">{% endif %}
+  <div class="kicker">{{ c.cover.kicker }}</div>
+  <h1>{{ c.cover.title }}</h1>
+  <p class="lead">{{ c.cover.lead|rich }}</p>
+  <div>{% for b in c.cover.badges %}<span class="badge">{{ b }}</span>{% endfor %}</div>
+  <div class="cover-art">
+    {% for a in c.cover.art %}<img src="{{ img(a) }}" alt="">{% endfor %}
+  </div>
+  <div class="folio folio-left">{{ c.meta.date }}</div>
+</section>
+
+{# 2. About #}
+<section class="page">
+  {{ head(c.about) }}
+  <div class="grid g2 grow" style="grid-template-columns: 1.25fr 1fr;">
+    <div>
+      {% for p in c.about.paragraphs %}<p>{{ p|rich }}</p>{% endfor %}
+      <div class="grid g3" style="margin-top:5mm">
+        {% for s in c.about.stats %}
+        <div class="card {{ loop.cycle('pink','mint','sun') }} stat">
+          <div class="num">{{ s.value|gaps }}</div>
+          <div class="label">{{ s.label }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="card cream">
+      <h3>{{ c.about.facts_title }}</h3>
+      <table>
+        {% for f in c.about.facts %}
+        <tr><td style="width:36%;color:var(--muted)">{{ f.label }}</td><td>{{ f.value|rich }}</td></tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+  <p class="src">{{ c.about.source|rich }}</p>
+  {{ folio() }}
+</section>
+
+{# 3. Characters #}
+<section class="page">
+  {{ head(c.characters) }}
+  <div class="grid grow" style="grid-template-columns: repeat({{ c.characters['items']|length if c.characters['items']|length < 5 else 4 }}, 1fr); align-content:start">
+    {% for ch in c.characters['items'] %}
+    <div class="char">
+      <img src="{{ img(ch.img) }}" alt="{{ ch.name }}">
+      <div class="body"><h3>{{ ch.name }}</h3>{{ ch.desc|rich }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% if c.characters.note %}<p class="src">{{ c.characters.note|rich }}</p>{% endif %}
+  {{ folio() }}
+</section>
+
+{# 4. Universe & illustration catalogue #}
+<section class="page">
+  {{ head(c.universe) }}
+  <div class="gallery grow" style="grid-template-columns: repeat({{ c.universe.cols or 4 }}, 1fr);">
+    {% for g in c.universe.gallery %}
+    <figure><img src="{{ img(g.img) }}" alt="{{ g.caption }}"></figure>
+    {% endfor %}
+  </div>
+  <div class="chips" style="margin-top:4mm">{% for t in c.universe.themes %}<span>{{ t }}</span>{% endfor %}</div>
+  {{ folio() }}
+</section>
+
+{# 5. Audience #}
+<section class="page">
+  {{ head(c.audience) }}
+  <div class="grid g4" style="margin-bottom:5mm">
+    {% for s in c.audience.highlights %}
+    <div class="card {{ loop.cycle('pink','mint','sun','cream') }} stat">
+      <div class="num">{{ s.value|gaps }}</div>
+      <div class="label">{{ s.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="grow">
+    <table>
+      <tr>{% for h in c.audience.columns %}<th>{{ h }}</th>{% endfor %}</tr>
+      {% for r in c.audience.rows %}
+      <tr>
+        <td><strong>{{ r.network }}</strong></td>
+        <td>{{ r.account }}</td>
+        <td class="num">{{ r.value|gaps }}</td>
+        <td>{{ r.metric|rich }}</td>
+        <td class="src">{{ r.source }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <p class="src">{{ c.audience.note|rich }}</p>
+  {{ folio() }}
+</section>
+
+{# 6. Track record: platforms and retail #}
+<section class="page">
+  {{ head(c.sold) }}
+  <div class="grid g2 grow" style="grid-template-columns: 1.5fr 1fr;">
+    <div>
+      <table class="sold-table">
+        <tr>{% for h in c.sold.columns %}<th>{{ h }}</th>{% endfor %}</tr>
+        {% for r in c.sold.platforms %}
+        <tr>
+          <td><strong>{{ r.name }}</strong></td>
+          <td>{{ r.products|rich }}</td>
+          <td>{{ r.metric|rich }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    <div>
+      {% for b in c.sold.boxes %}
+      <div class="card {{ loop.cycle('mint','sun','pink') }}" style="margin-bottom:4mm">
+        <h3>{{ b.title }}</h3>
+        <ul class="clean">{% for i in b['items'] %}<li>{{ i|rich }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <p class="src">{{ c.sold.note|rich }}</p>
+  {{ folio() }}
+</section>
+
+{# 7. Product photos #}
+<section class="page">
+  {{ head(c.products) }}
+  <div class="gallery grow" style="grid-template-columns: repeat({{ c.products.cols or 4 }}, 1fr);">
+    {% for g in c.products.gallery %}
+    <figure><img src="{{ img(g.img) }}" alt="{{ g.caption }}"><figcaption>{{ g.caption }}</figcaption></figure>
+    {% endfor %}
+  </div>
+  {% if c.products.note %}<p class="src" style="margin-top:3mm">{{ c.products.note|rich }}</p>{% endif %}
+  {{ folio() }}
+</section>
+
+{# 8. Audience profile and markets #}
+<section class="page">
+  {{ head(c.markets) }}
+  <div class="grid g3 grow" style="align-content:start">
+    {% for m in c.markets.cards %}
+    <div class="card {{ loop.cycle('pink','mint','sun') }}">
+      <h3>{{ m.title }}</h3>
+      {% for p in m.paragraphs %}<p>{{ p|rich }}</p>{% endfor %}
+      {% if m['items'] %}<ul class="clean">{% for i in m['items'] %}<li>{{ i|rich }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {{ folio() }}
+</section>
+
+{# 9. Product categories with potential #}
+<section class="page">
+  {{ head(c.categories) }}
+  <div class="grid g3 grow" style="align-content:start">
+    {% for cat in c.categories['items'] %}
+    <div class="card {{ loop.cycle('cream','mint','pink','sun') }}">
+      <h3>{{ cat.name }}</h3>
+      <p>{{ cat.why|rich }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {{ folio() }}
+</section>
+
+{# 10. What we are looking for in an agency #}
+<section class="page">
+  {{ head(c.agency) }}
+  <div class="grid g2 grow" style="align-content:start">
+    {% for b in c.agency.blocks %}
+    <div class="card {{ loop.cycle('mint','pink','sun','cream') }}">
+      <h3>{{ b.title }}</h3>
+      {% for p in b.paragraphs %}<p>{{ p|rich }}</p>{% endfor %}
+      {% if b['items'] %}<ul class="clean">{% for i in b['items'] %}<li>{{ i|rich }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {{ folio() }}
+</section>
+
+{# 11. Contact #}
+<section class="page cover">
+  <div class="blob" style="width:140mm;height:140mm;right:-40mm;top:-50mm;background:var(--mint-soft)"></div>
+  {% if c.cover.logo %}<img class="logo" src="{{ img(c.cover.logo) }}" alt="Naolito">{% endif %}
+  <div class="kicker">{{ c.contact.kicker }}</div>
+  <h1 style="font-size:34pt">{{ c.contact.title }}</h1>
+  <p class="lead">{{ c.contact.lead|rich }}</p>
+  <table style="max-width:170mm;font-size:11pt;margin-top:4mm">
+    {% for r in c.contact.rows %}
+    <tr><td style="width:34%;color:var(--muted)">{{ r.label }}</td><td><strong>{{ r.value|rich }}</strong></td></tr>
+    {% endfor %}
+  </table>
+  {{ folio() }}
+</section>
+
+{# 12. Sources #}
+<section class="page">
+  {{ head(c.sources) }}
+  <ol class="sources">
+    {% for s in c.sources['items'] %}
+    <li><strong>{{ s.label }}</strong><br><a href="{{ s.url }}">{{ s.url }}</a></li>
+    {% endfor %}
+  </ol>
+  {{ folio() }}
+</section>
+</body>
+</html>

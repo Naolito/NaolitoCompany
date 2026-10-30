@@ -1,0 +1,257 @@
+/* Naolito licensing dossier — one A4 landscape page per <section class="page"> */
+:root {
+  --ink: #2b2433;
+  --muted: #6d6578;
+  --paper: #fffaf4;
+  --cream: #fff1e3;
+  --pink: #ff8fab;
+  --pink-soft: #ffe0e8;
+  --mint: #8fd9c6;
+  --mint-soft: #ddf5ee;
+  --sun: #ffd166;
+  --sun-soft: #fff3cf;
+  --lilac: #b8a6f2;
+  --gap: #fff06a;
+  --radius: 18px;
+  --page-w: 297mm;
+  --page-h: 210mm;
+}
+
+@page { size: A4 landscape; margin: 0; }
+
+* { box-sizing: border-box; }
+
+html { background: #ece6ef; }
+
+body {
+  margin: 0;
+  font-family: "Nunito", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  font-size: 10.5pt;
+  line-height: 1.45;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+h1, h2, h3, .display {
+  font-family: "Fredoka", "Baloo 2", "Segoe UI Rounded", "Arial Rounded MT Bold", "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h2 { font-size: 23pt; margin-bottom: 3mm; }
+h3 { font-size: 13pt; margin-bottom: 1.5mm; }
+p { margin: 0 0 3mm; }
+a { color: inherit; }
+
+.page {
+  position: relative;
+  width: var(--page-w);
+  min-height: var(--page-h);
+  margin: 10mm auto;
+  padding: 12mm 16mm 12mm;
+  background: var(--paper);
+  overflow: hidden;
+  box-shadow: 0 6px 30px rgba(43, 36, 51, .15);
+  page-break-after: always;
+  break-after: page;
+  display: flex;
+  flex-direction: column;
+}
+
+.page:last-of-type { page-break-after: auto; break-after: auto; }
+
+@media print {
+  html { background: none; }
+  .page { margin: 0; box-shadow: none; }
+}
+
+@media screen and (max-width: 1150px) {
+  .page { width: auto; height: auto; min-height: 0; margin: 4mm; }
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: 8pt;
+  font-weight: 800;
+  color: var(--pink);
+  margin-bottom: 2mm;
+}
+
+.lead { font-size: 12pt; color: var(--muted); max-width: 200mm; }
+
+.folio {
+  position: absolute;
+  bottom: 6mm;
+  right: 16mm;
+  font-size: 7.5pt;
+  color: var(--muted);
+}
+
+.folio-left { left: 16mm; right: auto; }
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  opacity: .55;
+}
+
+.page > *:not(.blob) { position: relative; z-index: 1; }
+
+.grid { display: grid; gap: 6mm; }
+.g2 { grid-template-columns: 1fr 1fr; }
+.g3 { grid-template-columns: repeat(3, 1fr); }
+.g4 { grid-template-columns: repeat(4, 1fr); }
+.grow { flex: 1; min-height: 0; }
+
+.card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 5mm 6mm;
+  box-shadow: 0 2px 0 rgba(43, 36, 51, .06);
+}
+
+.card.pink { background: var(--pink-soft); }
+.card.mint { background: var(--mint-soft); }
+.card.sun { background: var(--sun-soft); }
+.card.cream { background: var(--cream); }
+
+.card p:last-child { margin-bottom: 0; }
+
+.gap {
+  background: var(--gap);
+  border: 1px dashed #b59b00;
+  border-radius: 4px;
+  padding: 0 1.2mm;
+  font-weight: 800;
+  font-size: .92em;
+  color: #5a4a00;
+  white-space: normal;
+}
+
+.src { font-size: 7pt; color: var(--muted); }
+.src a { text-decoration: none; }
+
+/* Cover */
+.cover { background: var(--cream); justify-content: center; }
+.cover .logo { max-height: 30mm; max-width: 110mm; margin-bottom: 8mm; mix-blend-mode: multiply; align-self: flex-start; }
+.cover h1 { font-size: 44pt; max-width: 135mm; }
+.cover .lead { margin-top: 5mm; max-width: 135mm; }
+.cover-art {
+  position: absolute !important;
+  right: 12mm;
+  top: 14mm;
+  bottom: 14mm;
+  width: 125mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4mm;
+}
+
+.cover-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.badge {
+  display: inline-block;
+  background: #fff;
+  border-radius: 999px;
+  padding: 1.5mm 4mm;
+  margin: 0 2mm 2mm 0;
+  font-weight: 700;
+  font-size: 9pt;
+}
+
+/* Stats */
+.stat { text-align: left; }
+.stat .num {
+  font-family: "Fredoka", "Segoe UI Rounded", "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 24pt;
+  line-height: 1;
+}
+
+.stat .label { font-size: 8.5pt; color: var(--muted); margin-top: 1mm; }
+
+/* Characters */
+.char {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.char img {
+  width: 100%;
+  height: 32mm;
+  object-fit: cover;
+  background: var(--pink-soft);
+}
+
+.char .body { padding: 2.5mm 3.5mm 3mm; font-size: 8.5pt; line-height: 1.35; }
+
+/* Galleries */
+.gallery { display: grid; gap: 4mm; }
+.gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.gallery figure { margin: 0; display: flex; flex-direction: column; min-height: 0; }
+.gallery figcaption { font-size: 7.5pt; color: var(--muted); margin-top: 1mm; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+th {
+  text-align: left;
+  font-size: 7.5pt;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  padding: 1.5mm 2mm;
+  border-bottom: 2px solid var(--pink);
+}
+
+td { padding: 1.3mm 2mm; border-bottom: 1px solid #efe6ee; vertical-align: top; }
+td.num { font-weight: 800; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+
+ul.clean { list-style: none; padding: 0; margin: 0; }
+ul.clean li { padding-left: 5mm; position: relative; margin-bottom: 1.6mm; }
+ul.clean li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.7mm;
+  width: 2.2mm;
+  height: 2.2mm;
+  border-radius: 50%;
+  background: var(--pink);
+}
+
+.chips span {
+  display: inline-block;
+  background: var(--mint-soft);
+  border-radius: 999px;
+  padding: 1mm 3mm;
+  margin: 0 1.5mm 1.5mm 0;
+  font-size: 8.5pt;
+  font-weight: 700;
+}
+
+/* Sources page */
+.sources { columns: 3; column-gap: 8mm; font-size: 7pt; line-height: 1.3; padding-left: 4mm; margin: 0; }
+.sources li { break-inside: avoid; margin-bottom: 1.2mm; }
+.sources a { word-break: break-all; color: var(--muted); }
+.sold-table { font-size: 8.5pt; }
